@@ -28,9 +28,11 @@ def test_inferno_tower_ramp_resets_on_retarget():
         e for e in battle.entities.values()
         if isinstance(e, Building) and e.player_id == 0 and e.card_stats.name == "InfernoTower"
     )
-    # Let inferno lock target long enough to ramp.
+    # Let inferno lock target long enough to ramp (stop before the Giant melts).
     for _ in range(220):
         battle.step()
+        if inferno.damage > 100:
+            break
     ramped_damage = inferno.damage
     assert ramped_damage > 100
 

@@ -87,7 +87,7 @@ def test_switches_to_in_sight_closer_building():
 def test_building_targeting_troop_ignores_out_of_sight_bridge_cannon():
     troop = _make_building_targeting_troop(x=14.5, y=17.0, sight_range=5.0)
     cannon = _make_building(entity_id=10, x=3.5, y=18.0, name="Cannon", player_id=1)
-    king = _make_building(entity_id=11, x=9.0, y=29.5, name="KingTower", player_id=1)
+    king = _make_building(entity_id=11, x=9.0, y=29.0, name="KingTower", player_id=1)
 
     target = troop.get_nearest_target({10: cannon, 11: king})
     assert target is king
@@ -96,7 +96,7 @@ def test_building_targeting_troop_ignores_out_of_sight_bridge_cannon():
 def test_building_targeting_troop_can_still_acquire_in_sight_defensive_building():
     troop = _make_building_targeting_troop(x=14.5, y=17.0, sight_range=5.0)
     cannon = _make_building(entity_id=10, x=12.0, y=18.0, name="Cannon", player_id=1)
-    king = _make_building(entity_id=11, x=9.0, y=29.5, name="KingTower", player_id=1)
+    king = _make_building(entity_id=11, x=9.0, y=29.0, name="KingTower", player_id=1)
 
     target = troop.get_nearest_target({10: cannon, 11: king})
     assert target is cannon
@@ -104,15 +104,15 @@ def test_building_targeting_troop_can_still_acquire_in_sight_defensive_building(
 
 def test_does_not_switch_from_king_to_out_of_sight_princess():
     troop = _make_building_targeting_troop(x=9.0, y=20.0, sight_range=6.0)
-    current_target = _make_building(entity_id=20, x=9.0, y=29.5, name="KingTower", player_id=1)
-    new_target = _make_building(entity_id=21, x=14.5, y=25.5, name="Tower", player_id=1)
+    current_target = _make_building(entity_id=20, x=9.0, y=29.0, name="KingTower", player_id=1)
+    new_target = _make_building(entity_id=21, x=14.5, y=25.5, name="PrincessTower", player_id=1)
 
     assert troop._should_switch_target(current_target, new_target) is False
 
 
 def test_can_switch_from_king_to_in_sight_defensive_building():
     troop = _make_building_targeting_troop(x=9.0, y=20.0, sight_range=6.0)
-    current_target = _make_building(entity_id=20, x=9.0, y=29.5, name="KingTower", player_id=1)
+    current_target = _make_building(entity_id=20, x=9.0, y=29.0, name="KingTower", player_id=1)
     new_target = _make_building(entity_id=21, x=10.5, y=20.5, name="Cannon", player_id=1)
 
     assert troop._should_switch_target(current_target, new_target) is True
@@ -120,8 +120,8 @@ def test_can_switch_from_king_to_in_sight_defensive_building():
 
 def test_can_switch_from_king_to_princess_when_attackable():
     troop = _make_building_targeting_troop(x=13.8, y=24.9, sight_range=6.0)
-    current_target = _make_building(entity_id=20, x=9.0, y=29.5, name="KingTower", player_id=1)
-    new_target = _make_building(entity_id=21, x=14.5, y=25.5, name="Tower", player_id=1)
+    current_target = _make_building(entity_id=20, x=9.0, y=29.0, name="KingTower", player_id=1)
+    new_target = _make_building(entity_id=21, x=14.5, y=25.5, name="PrincessTower", player_id=1)
 
     assert troop._should_switch_target(current_target, new_target) is True
 
@@ -129,8 +129,35 @@ def test_can_switch_from_king_to_princess_when_attackable():
 def test_basic_pathfind_on_bridge_keeps_locked_target():
     troop = _make_building_targeting_troop(x=3.5, y=16.0, sight_range=6.0)
     troop.player_id = 0
-    king = _make_building(entity_id=30, x=9.0, y=29.5, name="KingTower", player_id=1)
+    king = _make_building(entity_id=30, x=9.0, y=29.0, name="KingTower", player_id=1)
 
     target = troop._get_basic_pathfind_target(king)
     assert target.x == king.position.x
     assert target.y == king.position.y
+
+
+def test_left_lane_troop_goes_king_when_left_princess_down():
+    # Right princess (7.9 tiles) is closer than the king (8.1), but the troop
+    # is in the left lane, so with the left princess dead it must go king.
+    troop = _make_building_targeting_troop(x=8.0, y=21.0, sight_range=5.0)
+    right = _make_building(entity_id=40, x=14.5, y=25.5, name="PrincessTower", player_id=1)
+    king = _make_building(entity_id=41, x=9.0, y=29.0, name="KingTower", player_id=1)
+
+    assert troop.get_nearest_target({40: right, 41: king}) is king
+
+
+def test_lane_troop_prefers_own_lane_princess_over_king():
+    troop = _make_building_targeting_troop(x=8.0, y=21.0, sight_range=5.0)
+    left = _make_building(entity_id=40, x=3.5, y=25.5, name="PrincessTower", player_id=1)
+    right = _make_building(entity_id=41, x=14.5, y=25.5, name="PrincessTower", player_id=1)
+    king = _make_building(entity_id=42, x=9.0, y=29.0, name="KingTower", player_id=1)
+
+    assert troop.get_nearest_target({40: left, 41: right, 42: king}) is left
+
+
+def test_right_lane_troop_keeps_right_princess_when_left_down():
+    troop = _make_building_targeting_troop(x=10.0, y=21.0, sight_range=5.0)
+    right = _make_building(entity_id=40, x=14.5, y=25.5, name="PrincessTower", player_id=1)
+    king = _make_building(entity_id=41, x=9.0, y=29.0, name="KingTower", player_id=1)
+
+    assert troop.get_nearest_target({40: right, 41: king}) is right

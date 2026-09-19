@@ -1,0 +1,198 @@
+{
+  "Skeletons": {
+    "units": {"Larry": 3},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "EvoSkeletons": {
+    "units": {"EvoLarry": 3},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "Bats": {
+    "units": {"Bat": 5},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "EvoBats": {
+    "units": {"EvoBat": 5},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "Goblins": {
+    "units": {"Goblin": 3},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "HeroGoblins": {
+    "units": {"HeroGoblin": 3},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "SpearGoblins": {
+    "units": {"SpearGoblin": 3},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "Archers": {
+    "units": {"Archer": 2},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "EvoArchers": {
+    "units": {"EvoArcher": 2},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "GoblinGang": {
+    "units": {
+      "Goblin": 3,
+      "SpearGoblin": 2
+    },
+    "maxDistanceX": 3.3,
+    "maxDistanceY": 3.3
+  },
+
+  "Minions": {
+    "units": {"Minion": 3},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "SkeletonDragons": {
+    "units": {"SkeletonDragon": 2},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 2.0
+  },
+
+  "Barbarians": {
+    "units": {"Barbarian": 5},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "EvoBarbarians": {
+    "units": {"EvoBarbarian": 5},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "MinionHorde": {
+    "units": {"Minion": 6},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "EvoMinionHorde": {
+    "units": {"Minion": 6},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 3.0
+  },
+
+  "Rascals": {
+    "units": {
+      "BanditRascal": 1,
+      "ArcherRascal": 2
+    },
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 5.0
+  },
+
+  "RoyalRecruits": {
+    "units": {"RoyalRecruit": 6},
+    "maxDistanceX": 18.0,
+    "maxDistanceY": 2.0
+  },
+
+  "EvoRoyalRecruits": {
+    "units": {"EvoRoyalRecruit": 6},
+    "maxDistanceX": 18.0,
+    "maxDistanceY": 2.0
+  },
+
+  "Zappies": {
+    "units": {"Zappy": 3},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "ThreeMusketeers": {
+    "units": {"Musketeer": 3},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "WallBreakers": {
+    "units": {"WallBreaker": 2},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "EvoWallBreakers": {
+    "units": {"EvoWallBreaker": 2},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "Guards": {
+    "units": {"Guard": 3},
+    "maxDistanceX": 2.0,
+    "maxDistanceY": 2.0
+  },
+
+  "SkeletonArmy": {
+    "units": {"Larry": 15},
+    "maxDistanceX": 6.0,
+    "maxDistanceY": 5.0
+  },
+
+  "EvoSkeletonArmy": {
+    "units": {"Larry": 15},
+    "maxDistanceX": 6.0,
+    "maxDistanceY": 6.0
+  },
+
+  "RoyalHogs": {
+    "units": {"RoyalHog": 4},
+    "maxDistanceX": 4.0,
+    "maxDistanceY": 2.0
+  },
+
+  "EvoRoyalHogs": {
+    "units": {"EvoRoyalHog": 4},
+    "maxDistanceX": 4.0,
+    "maxDistanceY": 2.0
+  },
+
+  "Goblinstein": {
+    "units": {
+      "Doctor": 1,
+      "Monster": 1
+    },
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 4.0
+  },
+
+  "EliteBarbarians":
+  {
+    "units": {"EliteBarbarian": 2},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 2.0
+  },
+
+  "EvoEliteBarbarians":
+  {
+    "units": {"EvoEliteBarbarian": 2},
+    "maxDistanceX": 3.0,
+    "maxDistanceY": 2.0
+  }
+}

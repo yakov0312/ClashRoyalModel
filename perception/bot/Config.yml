@@ -1,0 +1,16 @@
+yolo:
+  weights: Model/best.pt
+  warmup_image: assets/screens/clash.jpeg
+  confidence: 0.35
+
+hudReader:
+  cardTemplates: shared/cards
+  digitModel : perception/digits/digitnet.pt
+  cardMinConfidence : 0.53
+  cardScale : 0.5
+  handChangeThreshold : 2.0
+  digitMinConfidence : 0.65
+
+calibration:
+  arenaTemplates : assets/arena_templates
+  calibrations : data/arenas/ArenaMapping.yml

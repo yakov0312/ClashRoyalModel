@@ -1,5 +1,25 @@
 # Outdated and probably wrong readme
 
+## Current setup and training (up to date)
+
+```bash
+# Installs the right PyTorch for this machine (NVIDIA/CUDA, AMD/ROCm or CPU)
+# plus the project dependencies. Keeps an already-working GPU torch.
+scripts/setup_gpu.sh            # or: scripts/setup_gpu.sh cuda|rocm|cpu
+# On vast.ai images that already ship torch: USE_SYSTEM_PYTHON=1 scripts/setup_gpu.sh
+
+# Train: rollouts run on CPU worker processes (all cores but one by default),
+# the PPO update runs on the GPU with bf16/fp16 mixed precision.
+.venv/bin/python -m clasher.rl.train_selfplay --rollout-steps 4096 --quiet-engine
+
+# Watch a checkpoint (policy = blue, bottom) / hand-train it
+.venv/bin/python -m clasher.rl.watch_policy_battle --checkpoint <ckpt.pt> --opponent-random
+.venv/bin/python -m training.imitation.handTrain --checkpoint <ckpt.pt>
+```
+
+Do not run `uv sync`: torch is not in `uv.lock` (the build depends on the
+GPU vendor), so sync would uninstall it. Use `uv pip install ...` instead.
+
 
 # 🏆 Clash Royale Battle Engine
 

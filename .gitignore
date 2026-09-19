@@ -1,13 +1,61 @@
-references/
-.specstory/
-investigation/
-new_references/
-*.png
-*.jpg
-__pycache__
-.claude
-.cursorindexingignore
-.pytest_cache
-.venv
-logs/
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.mypy_cache/
+.ruff_cache/
+
+# Training artifacts
 checkpoints/
+logs/
+*.log
+
+# Model weights / generated artifacts
+*.pt
+*.pth
+*.onnx
+*.safetensors
+
+# Videos / recordings
+Videos/
+
+# Claude / OpenClaw local state
+.claude/
+.claude.json
+.openclaw/
+.openclaw.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+data/actionSamples/*.mp4

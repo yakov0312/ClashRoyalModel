@@ -1,0 +1,147 @@
+{
+  "decks": [
+    {
+      "name": "Hog Wizard Witch",
+      "cards": [
+        "HogRider",
+        "Wizard",
+        "Witch",
+        "Log",
+        "Valkyrie",
+        "Tesla",
+        "Skeletons",
+        "Fireball"
+      ]
+    },
+    {
+      "name": "Hog Musketeer Valkyrie",
+      "cards": [
+        "HogRider",
+        "Musketeer",
+        "Valkyrie",
+        "IceSpirit",
+        "Cannon",
+        "Skeletons",
+        "Fireball",
+        "Log"
+      ]
+    },
+    {
+      "name": "Hog Executioner Valkyrie",
+      "cards": [
+        "HogRider",
+        "Executioner",
+        "Valkyrie",
+        "Tornado",
+        "Tesla",
+        "IceSpirit",
+        "Fireball",
+        "IceWizard"
+      ]
+    },
+    {
+      "name": "Hog Musketeer Knight",
+      "cards": [
+        "HogRider",
+        "Musketeer",
+        "Knight",
+        "IceGolem",
+        "Cannon",
+        "Skeletons",
+        "Fireball",
+        "Log"
+      ]
+    },
+    {
+      "name": "Giant Double Prince",
+      "cards": [
+        "Giant",
+        "Prince",
+        "DarkPrince",
+        "Musketeer",
+        "MegaMinion",
+        "Bomber",
+        "Arrows",
+        "Zap"
+      ]
+    },
+    {
+      "name": "Royal Giant Hunter",
+      "cards": [
+        "RoyalGiant",
+        "Wizard",
+        "Hunter",
+        "Fisherman",
+        "Skeletons",
+        "ElectroSpirit",
+        "Fireball",
+        "Log"
+      ]
+    },
+    {
+      "name": "Balloon Ice Wizard",
+      "cards": [
+        "Balloon",
+        "IceWizard",
+        "BabyDragon",
+        "Tornado",
+        "Knight",
+        "Skeletons",
+        "Freeze",
+        "BarbarianBarrel"
+      ]
+    },
+    {
+      "name": "Balloon Musketeer",
+      "cards": [
+        "Balloon",
+        "Musketeer",
+        "Valkyrie",
+        "IceGolem",
+        "Skeletons",
+        "Fireball",
+        "Freeze",
+        "Log"
+      ]
+    },
+    {
+      "name": "Wall Breakers Miner",
+      "cards": [
+        "WallBreakers",
+        "Miner",
+        "Valkyrie",
+        "Musketeer",
+        "BombTower",
+        "Skeletons",
+        "Poison",
+        "Log"
+      ]
+    },
+    {
+      "name": "Ram Rider PEKKA",
+      "cards": [
+        "RamRider",
+        "P-E-K-K-A",
+        "Bandit",
+        "ElectroWizard",
+        "MagicArcher",
+        "Zap",
+        "Poison",
+        "BarbarianBarrel"
+      ]
+    },
+    {
+      "name": "Tesla Rocket",
+      "cards": [
+        "Tesla",
+        "IceSpirit",
+        "RoyalDelivery",
+        "ArcherQueen",
+        "Log",
+        "Poison",
+        "Valkyrie",
+        "Rocket"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,5301 @@
+{
+ "Archer": {
+  "name": "Archer",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 900,
+   "hitpoints": 119,
+   "loadTime": 400,
+   "name": "Archer",
+   "projectileData": {
+    "damage": 42,
+    "name": "ArcherProjectile",
+    "rarity": "Common",
+    "speed": 600
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "ArcherQueen": {
+  "id": 26000072,
+  "manaCost": 5,
+  "name": "ArcherQueen",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "buffData": {
+     "hitSpeedMultiplier": 280,
+     "name": "ArcherQueenBuff",
+     "rarity": "Common",
+     "speedMultiplier": -25
+    },
+    "buffTime": 3500,
+    "cooldown": 17000,
+    "manaCost": 1,
+    "name": "ArcherQueenAbility"
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 391,
+   "loadTime": 900,
+   "name": "ArcherQueen",
+   "projectileData": {
+    "damage": 88,
+    "name": "ArcherQueenProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L3"
+ },
+ "ArcherRascal": {
+  "name": "ArcherRascal",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 102,
+   "loadTime": 500,
+   "name": "ArcherRascal",
+   "projectileData": {
+    "damage": 52,
+    "name": "ArcherRascalProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "Archers": {
+  "id": 26000001,
+  "manaCost": 3,
+  "name": "Archers",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 900,
+   "hitpoints": 119,
+   "loadTime": 400,
+   "name": "Archers",
+   "projectileData": {
+    "damage": 42,
+    "name": "ArchersProjectile",
+    "rarity": "Common",
+    "speed": 600
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 2,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Village",
+  "unlockArena": "TrainingCamp"
+ },
+ "Arrows": {
+  "id": 28000001,
+  "manaCost": 3,
+  "multipleProjectiles": 10,
+  "name": "Arrows",
+  "projectileData": {
+   "crownTowerDamagePercent": -75,
+   "damage": 48,
+   "name": "ArrowsProjectile",
+   "radius": 1400,
+   "rarity": "Common",
+   "speed": 1100,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "projectileWaveInterval": 200,
+  "projectileWaves": 3,
+  "radius": 3500,
+  "rarity": "Common",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "TrainingCamp"
+ },
+ "BabyDragon": {
+  "id": 26000015,
+  "manaCost": 4,
+  "name": "BabyDragon",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 450,
+   "loadTime": 1200,
+   "name": "BabyDragon",
+   "projectileData": {
+    "damage": 63,
+    "name": "BabyDragonProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 500,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena6"
+ },
+ "Balloon": {
+  "id": 26000006,
+  "manaCost": 5,
+  "name": "Balloon",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 250,
+   "deathSpawnCharacterData": {
+    "collisionRadius": 450,
+    "deathDamage": 94,
+    "deployTime": 3000,
+    "name": "BalloonDeathSpawnCharacter",
+    "rarity": "Common",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 2000,
+   "hitpoints": 656,
+   "loadTime": 1800,
+   "name": "Balloon",
+   "range": 100,
+   "rarity": "Common",
+   "sightRange": 7700,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "Bandit": {
+  "id": 26000046,
+  "manaCost": 3,
+  "name": "Bandit",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 76,
+   "dashDamage": 152,
+   "dashMaxRange": 6000,
+   "dashMinRange": 3500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 354,
+   "jumpSpeed": 500,
+   "loadTime": 600,
+   "name": "Bandit",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "BanditRascal": {
+  "name": "BanditRascal",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 52,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 758,
+   "loadTime": 1100,
+   "name": "BanditRascal",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "Barbarian": {
+  "name": "Barbarian",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 75,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 262,
+   "loadTime": 900,
+   "name": "Barbarian",
+   "range": 700,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "BarbarianBarrel": {
+  "id": 28000015,
+  "manaCost": 2,
+  "name": "BarbarianBarrel",
+  "projectileData": {
+   "name": "BarbarianBarrelProjectile",
+   "radius": 1300,
+   "radiusY": 600,
+   "rarity": "Common",
+   "spawnProjectileData": {
+    "damage": 94,
+    "name": "BarbarianBarrelSpawnProjectile",
+    "projectileRange": 4500,
+    "pushback": 0,
+    "rarity": "Common",
+    "spawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 500,
+     "damage": 75,
+     "deployTime": 1000,
+     "hitSpeed": 1300,
+     "hitpoints": 262,
+     "loadTime": 900,
+     "name": "Barbarian",
+     "range": 700,
+     "rarity": "Common",
+     "sightRange": 5500,
+     "speed": 60,
+     "tidSpeed": "TID_SPEED_3",
+     "tidTarget": "TID_TARGETS_GROUND"
+    },
+    "speed": 200,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "speed": 360
+  },
+  "rarity": "Epic",
+  "spellAsDeploy": true,
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena9"
+ },
+ "BarbarianHut": {
+  "id": 27000005,
+  "manaCost": 6,
+  "name": "BarbarianHut",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 75,
+    "deployTime": 1000,
+    "hitSpeed": 1300,
+    "hitpoints": 262,
+    "loadTime": 900,
+    "name": "Barbarian",
+    "range": 700,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 10000,
+   "hitpoints": 455,
+   "lifeTime": 30000,
+   "name": "BarbarianHut",
+   "rarity": "Common",
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 75,
+    "deployTime": 1000,
+    "hitSpeed": 1300,
+    "hitpoints": 262,
+    "loadTime": 900,
+    "name": "Barbarian",
+    "range": 700,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "spawnInterval": 500,
+   "spawnNumber": 3,
+   "spawnPauseTime": 14000
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena9"
+ },
+ "Barbarians": {
+  "id": 26000008,
+  "manaCost": 5,
+  "name": "Barbarians",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 75,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 262,
+   "loadTime": 900,
+   "name": "Barbarians",
+   "range": 700,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 5,
+  "summonRadius": 700,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena3"
+ },
+ "Bat": {
+  "name": "Bat",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 32,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 32,
+   "loadTime": 700,
+   "name": "Bat",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "Bats": {
+  "id": 26000049,
+  "manaCost": 2,
+  "name": "Bats",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 32,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 32,
+   "loadTime": 700,
+   "name": "Bats",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 5,
+  "summonRadius": 750,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena5"
+ },
+ "BattleHealer": {
+  "id": 26000068,
+  "manaCost": 4,
+  "name": "BattleHealer",
+  "radius": 2500,
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "areaEffectOnHitData": {
+    "buffData": {
+     "healPerSecond": 40,
+     "hitFrequency": 250,
+     "name": "BattleHealerBuff",
+     "rarity": "Common"
+    },
+    "buffTime": 1000,
+    "hitSpeed": 0,
+    "hitsAir": true,
+    "hitsGround": true,
+    "lifeDuration": 50,
+    "name": "BattleHealerAreaEffectOnHit",
+    "radius": 4000,
+    "rarity": "Common"
+   },
+   "attacksGround": true,
+   "buffWhenNotAttackingTime": 5000,
+   "collisionRadius": 500,
+   "damage": 58,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 671,
+   "loadTime": 1200,
+   "name": "BattleHealer",
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnAreaObjectData": {
+    "buffData": {
+     "healPerSecond": 79,
+     "hitFrequency": 250,
+     "name": "BattleHealerBuff",
+     "rarity": "Common"
+    },
+    "buffTime": 1000,
+    "hitSpeed": 0,
+    "hitsAir": true,
+    "hitsGround": true,
+    "lifeDuration": 1000,
+    "name": "BattleHealerSpawnAreaObject",
+    "radius": 2500,
+    "rarity": "Common"
+   },
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena8"
+ },
+ "BattleRam": {
+  "id": 26000036,
+  "manaCost": 4,
+  "name": "BattleRam",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "chargeRange": 300,
+   "collisionRadius": 750,
+   "damage": 112,
+   "damageSpecial": 224,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 75,
+    "deployTime": 1000,
+    "hitSpeed": 1300,
+    "hitpoints": 262,
+    "loadTime": 900,
+    "name": "Barbarian",
+    "range": 700,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "deathSpawnCount": 2,
+   "deployTime": 1000,
+   "hitSpeed": 400,
+   "hitpoints": 378,
+   "kamikaze": true,
+   "loadTime": 50,
+   "name": "BattleRam",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena3"
+ },
+ "Berserker": {
+  "id": 26000102,
+  "manaCost": 2,
+  "name": "Berserker",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attackSequenceList": [
+    {
+     "damage": 40,
+     "statsTags": {
+      "damage": "damage"
+     }
+    },
+    {
+     "damage": 40
+    },
+    {
+     "damage": 40
+    }
+   ],
+   "attacksGround": true,
+   "collisionRadius": 450,
+   "deployTime": 1000,
+   "hitSpeed": 500,
+   "hitpoints": 350,
+   "loadTime": 300,
+   "name": "Berserker",
+   "onStartingAction": {
+    "classType": "ActionBerserk"
+   },
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "BombTower": {
+  "id": 27000004,
+  "manaCost": 4,
+  "name": "BombTower",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 600,
+   "deathSpawnCharacterData": {
+    "collisionRadius": 450,
+    "deathDamage": 87,
+    "deployTime": 3000,
+    "name": "BombTowerDeathSpawnCharacter",
+    "rarity": "Common",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 530,
+   "lifeTime": 30000,
+   "loadTime": 1300,
+   "name": "BombTower",
+   "projectileData": {
+    "damage": 87,
+    "name": "BombTowerProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 500,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena4"
+ },
+ "Bomber": {
+  "id": 26000013,
+  "manaCost": 2,
+  "name": "Bomber",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 130,
+   "loadTime": 1600,
+   "name": "Bomber",
+   "projectileData": {
+    "damage": 88,
+    "name": "BomberProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 4500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena2"
+ },
+ "BossBandit": {
+  "id": 26000103,
+  "manaCost": 6,
+  "name": "BossBandit",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "cooldown": 999999,
+    "manaCost": 1,
+    "name": "BossBanditAbility",
+    "onActivationActionData": {
+     "name": "BossBanditOnActivationAction",
+     "subActionsData": [
+      {
+       "name": "BossBanditSubActions",
+       "spawnDataData": {
+        "name": "BossBanditSpawn",
+        "rarity": "Common"
+       },
+       "spawnTime": 1000
+      },
+      {
+       "name": "BossBanditSubActions"
+      },
+      {
+       "name": "BossBanditSubActions"
+      },
+      {
+       "name": "BossBanditSubActions"
+      }
+     ]
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 105,
+   "dashDamage": 210,
+   "dashMaxRange": 6000,
+   "dashMinRange": 3500,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 1063,
+   "jumpSpeed": 500,
+   "loadTime": 800,
+   "name": "BossBandit",
+   "onStartingActionData": {
+    "name": "BossBanditOnStartingAction",
+    "subActionsData": [
+     {
+      "name": "BossBanditSubActions"
+     },
+     {
+      "name": "BossBanditSubActions"
+     }
+    ]
+   },
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L3"
+ },
+ "Bowler": {
+  "id": 26000034,
+  "manaCost": 5,
+  "name": "Bowler",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "deployTime": 1000,
+   "hitSpeed": 2500,
+   "hitpoints": 813,
+   "loadTime": 2000,
+   "name": "Bowler",
+   "projectileData": {
+    "damage": 113,
+    "name": "BowlerProjectile",
+    "projectileRange": 7500,
+    "pushback": 1000,
+    "radius": 1800,
+    "rarity": "Common",
+    "speed": 170,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 4000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "Brawler": {
+  "name": "Brawler",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 132,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 422,
+   "loadTime": 900,
+   "name": "Brawler",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "BushGoblin": {
+  "name": "BushGoblin",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 100,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 119,
+   "loadTime": 1100,
+   "name": "BushGoblin",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "Cannon": {
+  "id": 27000000,
+  "manaCost": 3,
+  "name": "Cannon",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 322,
+   "lifeTime": 30000,
+   "loadTime": 100,
+   "name": "Cannon",
+   "projectileData": {
+    "damage": 83,
+    "name": "CannonProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena3"
+ },
+ "CannonCart": {
+  "id": 26000054,
+  "manaCost": 5,
+  "name": "CannonCart",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 900,
+   "hitpoints": 707,
+   "loadTime": 400,
+   "name": "CannonCart",
+   "onStartingActionData": {
+    "actionsData": [
+     {
+      "name": "CannonCartActions",
+      "newCharacterDataData": {
+       "attacksGround": true,
+       "collisionRadius": 600,
+       "deployTime": 1000,
+       "hitSpeed": 900,
+       "hitpoints": 707,
+       "loadTime": 400,
+       "name": "CannonCartNewCharacter",
+       "projectileData": {
+        "damage": 83,
+        "name": "CannonCartProjectile",
+        "rarity": "Common",
+        "speed": 1000
+       },
+       "range": 5500,
+       "rarity": "Common",
+       "sightRange": 5500,
+       "tidTarget": "TID_TARGETS_GROUND"
+      }
+     },
+     {
+      "name": "CannonCartActions"
+     },
+     {
+      "name": "CannonCartActions"
+     }
+    ],
+    "healthPercentages": [
+     50,
+     50,
+     50
+    ],
+    "name": "CannonCartOnStartingAction"
+   },
+   "projectileData": {
+    "damage": 83,
+    "name": "CannonCartProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L1"
+ },
+ "Clone": {
+  "areaEffectObjectData": {
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 1000,
+   "name": "Clone",
+   "onHitActionData": {
+    "name": "CloneOnHitAction"
+   },
+   "radius": 3000,
+   "rarity": "Common"
+  },
+  "id": 28000013,
+  "manaCost": 3,
+  "name": "Clone",
+  "radius": 3000,
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_L1"
+ },
+ "CursedHog": {
+  "name": "CursedHog",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 21,
+   "deployTime": 200,
+   "hitSpeed": 1200,
+   "hitpoints": 246,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 950,
+   "name": "CursedHog",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 9500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "DarkPrince": {
+  "id": 26000027,
+  "manaCost": 4,
+  "name": "DarkPrince",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "areaDamageRadius": 1100,
+   "attacksGround": true,
+   "chargeRange": 300,
+   "collisionRadius": 600,
+   "damage": 97,
+   "damageSpecial": 194,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 469,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 900,
+   "name": "DarkPrince",
+   "range": 1200,
+   "rarity": "Common",
+   "shieldHitpoints": 94,
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "DartGoblin": {
+  "id": 26000040,
+  "manaCost": 3,
+  "name": "DartGoblin",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 700,
+   "hitpoints": 102,
+   "loadTime": 350,
+   "name": "DartGoblin",
+   "projectileData": {
+    "damage": 52,
+    "name": "DartGoblinProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 6500,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "Doctor": {
+  "name": "Doctor",
+  "summonCharacterData": {
+   "abilityData": {
+    "cooldown": 17000,
+    "manaCost": 2,
+    "name": "DoctorAbility",
+    "onActivationActionData": {
+     "name": "DoctorOnActivationAction",
+     "spawnDataData": {
+      "name": "DoctorSpawn",
+      "rarity": "Common"
+     },
+     "spawnTime": 1250
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 282,
+   "loadTime": 1300,
+   "name": "Doctor",
+   "onStartingAction": {
+    "classType": "ActionSpawn",
+    "spawnData": "AOE_goblinstein_ability",
+    "spawnType": "AreaEffectType"
+   },
+   "projectileData": {
+    "buffTime": 500,
+    "damage": 36,
+    "name": "DoctorProjectile",
+    "rarity": "Common",
+    "speed": 500,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "DoctorTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    }
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "Earthquake": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "buildingDamagePercent": 350,
+    "crownTowerDamagePercent": -35,
+    "damagePerSecond": 32,
+    "hitFrequency": 1000,
+    "name": "Earthquake",
+    "rarity": "Common",
+    "speedMultiplier": -50
+   },
+   "buffTime": 1000,
+   "hitSpeed": 100,
+   "hitsAir": false,
+   "hitsGround": true,
+   "lifeDuration": 3000,
+   "name": "Earthquake",
+   "onlyEnemies": true,
+   "radius": 3500,
+   "rarity": "Common"
+  },
+  "id": 28000014,
+  "manaCost": 3,
+  "name": "Earthquake",
+  "radius": 3500,
+  "rarity": "Rare",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_T"
+ },
+ "ElectroDragon": {
+  "id": 26000063,
+  "manaCost": 5,
+  "name": "ElectroDragon",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 2100,
+   "hitpoints": 371,
+   "loadTime": 1400,
+   "name": "ElectroDragon",
+   "projectileData": {
+    "buffTime": 500,
+    "chainedHitCount": 3,
+    "damage": 75,
+    "name": "ElectroDragonProjectile",
+    "rarity": "Common",
+    "speed": 2000,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "ElectroDragonTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    }
+   },
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "ElectroGiant": {
+  "id": 26000085,
+  "manaCost": 7,
+  "name": "ElectroGiant",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 64,
+   "deployTime": 1000,
+   "hitSpeed": 2100,
+   "hitpoints": 1506,
+   "loadTime": 600,
+   "name": "ElectroGiant",
+   "range": 1200,
+   "rarity": "Common",
+   "reflectAttackCrownTowerDamage": 50,
+   "reflectedAttackBuffData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ElectroGiantReflectedAttackBuff",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "reflectedAttackBuffDuration": 500,
+   "reflectedAttackDamage": 75,
+   "reflectedAttackRadius": 2000,
+   "reflectedAttackTargetedEffectSources": 2,
+   "sightRange": 7500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "ElectroSpirit": {
+  "id": 26000084,
+  "manaCost": 1,
+  "name": "ElectroSpirit",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 90,
+   "kamikaze": true,
+   "loadTime": 100,
+   "name": "ElectroSpirit",
+   "projectileData": {
+    "buffTime": 500,
+    "chainedHitCount": 9,
+    "damage": 39,
+    "name": "ElectroSpiritProjectile",
+    "rarity": "Common",
+    "speed": 2000,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "ElectroSpiritTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    }
+   },
+   "range": 2500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena4"
+ },
+ "ElectroWizard": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ElectroWizardBuff",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffTime": 500,
+   "crownTowerDamagePercent": -100,
+   "damage": 75,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 1,
+   "name": "ElectroWizardAreaEffectObject",
+   "onlyEnemies": true,
+   "radius": 3000,
+   "rarity": "Common"
+  },
+  "id": 26000042,
+  "manaCost": 4,
+  "name": "ElectroWizard",
+  "radius": 3000,
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "buffOnDamageData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ElectroWizardBuffOnDamage",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffOnDamageTime": 500,
+   "collisionRadius": 500,
+   "damage": 46,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 279,
+   "loadTime": 1200,
+   "multipleTargets": 2,
+   "name": "ElectroWizard",
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "EliteBarbarian": {
+  "name": "EliteBarbarian",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 150,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 524,
+   "loadTime": 900,
+   "name": "EliteBarbarian",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "EliteBarbarians": {
+  "id": 26000043,
+  "manaCost": 6,
+  "name": "EliteBarbarians",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 150,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 524,
+   "loadTime": 900,
+   "name": "EliteBarbarians",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 2,
+  "summonRadius": 700,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L"
+ },
+ "ElixirGolem": {
+  "id": 26000067,
+  "manaCost": 3,
+  "name": "ElixirGolem",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 99,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 50,
+    "deathSpawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 400,
+     "damage": 25,
+     "deployTime": 1000,
+     "hitSpeed": 1100,
+     "hitpoints": 141,
+     "loadTime": 300,
+     "name": "ElixirGolemSmall",
+     "range": 800,
+     "rarity": "Common",
+     "sightRange": 7500,
+     "speed": 90,
+     "tidSpeed": "TID_SPEED_4",
+     "tidTarget": "TID_TARGETS_BUILDINGS"
+    },
+    "deathSpawnCount": 2,
+    "deployTime": 1000,
+    "hitSpeed": 1100,
+    "hitpoints": 298,
+    "loadTime": 300,
+    "name": "MiniElixirGolem",
+    "range": 800,
+    "rarity": "Common",
+    "sightRange": 7500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_BUILDINGS"
+   },
+   "deathSpawnCount": 2,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 613,
+   "loadTime": 300,
+   "name": "ElixirGolem",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena14"
+ },
+ "ElixirGolemSmall": {
+  "name": "ElixirGolemSmall",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "damage": 25,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 141,
+   "loadTime": 300,
+   "name": "ElixirGolemSmall",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "ElixirPump": {
+  "id": 27000007,
+  "manaCost": 6,
+  "name": "ElixirPump",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "deployTime": 1000,
+   "hitpoints": 418,
+   "lifeTime": 86000,
+   "manaCollectAmount": 1,
+   "manaGenerateTimeMs": 12000,
+   "manaOnDeath": 1,
+   "name": "ElixirPump",
+   "rarity": "Common"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena_L1"
+ },
+ "Executioner": {
+  "id": 26000045,
+  "manaCost": 5,
+  "name": "Executioner",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 900,
+   "hitpoints": 500,
+   "loadTime": 400,
+   "name": "Executioner",
+   "projectileData": {
+    "damage": 66,
+    "name": "ExecutionerProjectile",
+    "pingpongVisualTime": 1500,
+    "projectileRange": 7500,
+    "radius": 1000,
+    "rarity": "Common",
+    "speed": 550,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 4500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena14"
+ },
+ "FireSpirit": {
+  "id": 26000031,
+  "manaCost": 1,
+  "name": "FireSpirit",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 90,
+   "kamikaze": true,
+   "loadTime": 100,
+   "name": "FireSpirit",
+   "projectileData": {
+    "damage": 81,
+    "name": "FireSpiritProjectile",
+    "radius": 2300,
+    "rarity": "Common",
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 2500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena4"
+ },
+ "Fireball": {
+  "id": 28000000,
+  "manaCost": 4,
+  "name": "Fireball",
+  "projectileData": {
+   "crownTowerDamagePercent": -70,
+   "damage": 269,
+   "name": "FireballProjectile",
+   "pushback": 1000,
+   "radius": 2500,
+   "rarity": "Common",
+   "speed": 600,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "rarity": "Rare",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "TrainingCamp"
+ },
+ "Firecracker": {
+  "id": 26000064,
+  "manaCost": 3,
+  "name": "Firecracker",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 3000,
+   "hitpoints": 119,
+   "loadTime": 2350,
+   "name": "Firecracker",
+   "projectileData": {
+    "name": "FirecrackerProjectile",
+    "rarity": "Common",
+    "spawnProjectileData": {
+     "damage": 25,
+     "name": "FirecrackerSpawnProjectile",
+     "projectileRange": 5000,
+     "radius": 400,
+     "rarity": "Common",
+     "spawnCount": 5,
+     "speed": 550,
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "speed": 400
+   },
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 8500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "Fisherman": {
+  "id": 26000061,
+  "manaCost": 3,
+  "name": "Fisherman",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 76,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 340,
+   "loadTime": 1200,
+   "name": "Fisherman",
+   "projectileSpecialData": {
+    "buffTime": 1500,
+    "name": "FishermanProjectileSpecial",
+    "rarity": "Common",
+    "speed": 800,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -35,
+     "name": "FishermanTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -35,
+     "speedMultiplier": -35
+    }
+   },
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "specialLoadTime": 1300,
+   "specialMinRange": 3500,
+   "specialRange": 7000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L1"
+ },
+ "FlyingMachine": {
+  "id": 26000057,
+  "manaCost": 4,
+  "name": "FlyingMachine",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 240,
+   "loadTime": 600,
+   "name": "FlyingMachine",
+   "projectileData": {
+    "damage": 67,
+    "name": "FlyingMachineProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena5"
+ },
+ "Freeze": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "hitSpeedMultiplier": -100,
+    "name": "Freeze",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffTime": 4000,
+   "crownTowerDamagePercent": -70,
+   "damage": 45,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 4000,
+   "name": "Freeze",
+   "onlyEnemies": true,
+   "radius": 3000,
+   "rarity": "Common"
+  },
+  "id": 28000005,
+  "manaCost": 4,
+  "name": "Freeze",
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena8"
+ },
+ "Giant": {
+  "id": 26000003,
+  "manaCost": 5,
+  "name": "Giant",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 99,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 1598,
+   "loadTime": 1000,
+   "name": "Giant",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Village",
+  "unlockArena": "TrainingCamp"
+ },
+ "GiantSkeleton": {
+  "id": 26000020,
+  "manaCost": 6,
+  "name": "GiantSkeleton",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 1000,
+   "damage": 104,
+   "deathSpawnCharacterData": {
+    "collisionRadius": 450,
+    "crownTowerDamagePercent": 100,
+    "deathDamage": 209,
+    "deployTime": 3000,
+    "name": "GiantBomb",
+    "rarity": "Common",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 1413,
+   "loadTime": 1100,
+   "name": "GiantSkeleton",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena8"
+ },
+ "Goblin": {
+  "name": "Goblin",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 47,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 79,
+   "loadTime": 700,
+   "name": "Goblin",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "GoblinBarrel": {
+  "id": 28000004,
+  "manaCost": 3,
+  "name": "GoblinBarrel",
+  "projectileData": {
+   "name": "GoblinBarrelProjectile",
+   "radius": 1500,
+   "rarity": "Common",
+   "spawnCharacterCount": 3,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 47,
+    "deployTime": 1000,
+    "hitSpeed": 1100,
+    "hitpoints": 79,
+    "loadTime": 700,
+    "name": "Goblin",
+    "range": 500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 120,
+    "tidSpeed": "TID_SPEED_5",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "speed": 400
+  },
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena6"
+ },
+ "GoblinCage": {
+  "id": 27000012,
+  "manaCost": 4,
+  "name": "GoblinCage",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 132,
+    "deployTime": 1000,
+    "hitSpeed": 1100,
+    "hitpoints": 422,
+    "loadTime": 900,
+    "name": "Brawler",
+    "range": 800,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 10000,
+   "hitpoints": 305,
+   "lifeTime": 20000,
+   "name": "GoblinCage",
+   "rarity": "Common",
+   "sightRange": 20000
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena1"
+ },
+ "GoblinCurse": {
+  "areaEffectObjectData": {
+   "damage": 100,
+   "hitSpeed": -1,
+   "hitsAir": false,
+   "hitsGround": false,
+   "lifeDuration": 6000,
+   "name": "GoblinCurse",
+   "onStartingActionData": {
+    "name": "GoblinCurseOnStartingAction",
+    "subActionsData": [
+     {
+      "name": "GoblinCurseSubActions"
+     },
+     {
+      "name": "GoblinCurseSubActions",
+      "spawnDataData": {
+       "hitSpeed": 50,
+       "hitsAir": true,
+       "hitsGround": true,
+       "lifeDuration": 6000,
+       "name": "GoblinCurseSpawn",
+       "onHitActionData": {
+        "name": "GoblinCurseOnHitAction",
+        "subActionsData": [
+         {
+          "damageReduction": -20,
+          "name": "GoblinCurseSubActions",
+          "rarity": "Common"
+         },
+         {
+          "deathSpawnCount": 1,
+          "deathSpawnData": {
+           "baseData": {
+            "attackStartEffect": "goblins_attack_start",
+            "attacksGround": true,
+            "blueExportName": "goblin1",
+            "collisionRadius": 500,
+            "damage": 47,
+            "damageEffect": "goblins_hit",
+            "damageExportName": "filter_damage",
+            "deathEffect": "goblins_die",
+            "deployBaseAnimExportName": "filter_deploy_unit_default",
+            "deployDelay": 400,
+            "deployTime": 1000,
+            "fileName": "sc/chr_goblin.sc",
+            "healthBar": "Small",
+            "hitSpeed": 1100,
+            "hitpoints": 79,
+            "loadTime": 700,
+            "mass": 2,
+            "moveEffect": "goblins_steps",
+            "name": "Goblin",
+            "prestigeExportName2": "goblin_prestige",
+            "prestigeExportName3": "goblin_prestige2",
+            "prestigeSwf": "sc/chr_prestige4_dl.sc",
+            "projectileStartRadius": 350,
+            "projectileStartZ": 350,
+            "range": 500,
+            "rarity": "Common",
+            "redExportName": "goblin1_enemy",
+            "scale": 100,
+            "shadowScaleX": 50,
+            "shadowScaleY": 50,
+            "shadowSkew": 35,
+            "shadowX": -5,
+            "shadowY": 5,
+            "sightRange": 5500,
+            "spawnEffect": "goblins_deploy",
+            "speed": 120,
+            "useAnimator": true
+           },
+           "deathEffect": "Death_goblin_curse",
+           "hitSpeed": 1100,
+           "hitpoints": 79,
+           "loadTime": 700,
+           "name": "GoblinCurseDeathSpawn",
+           "range": 500,
+           "sightRange": 5500,
+           "statsTags": {
+            "damage": "spawn_damage",
+            "hitSpeed": "spawn_hit_speed",
+            "hitpoints": "spawn_hitpoints",
+            "level": "level",
+            "range": "spawn_range",
+            "speed": "spawn_speed",
+            "targets": "spawn_targets"
+           }
+          },
+          "name": "GoblinCurse",
+          "rarity": "Common"
+         },
+         {
+          "crownTowerDamagePercent": -80,
+          "damagePerSecond": 12,
+          "hitFrequency": 1000,
+          "name": "GoblinCurseSubActions",
+          "rarity": "Common"
+         }
+        ]
+       },
+       "onlyEnemies": true,
+       "radius": 3000,
+       "rarity": "Common"
+      }
+     },
+     {
+      "name": "GoblinCurseSubActions"
+     }
+    ]
+   },
+   "onlyEnemies": true,
+   "radius": 3000,
+   "rarity": "Common"
+  },
+  "id": 28000024,
+  "manaCost": 2,
+  "name": "GoblinCurse",
+  "radius": 3000,
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena14"
+ },
+ "GoblinDemolisher": {
+  "id": 26000095,
+  "manaCost": 4,
+  "name": "GoblinDemolisher",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deathSpawnProjectileData": {
+    "damage": 158,
+    "name": "GoblinDemolisherDeathSpawnProjectile",
+    "pushback": 2000,
+    "radius": 2500,
+    "rarity": "Common",
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 508,
+   "loadTime": 700,
+   "name": "GoblinDemolisher",
+   "onStartingActionData": {
+    "actionsData": [
+     {
+      "name": "GoblinDemolisherActions",
+      "newCharacterDataData": {
+       "attacksGround": true,
+       "collisionRadius": 600,
+       "deathSpawnProjectileData": {
+        "damage": 158,
+        "name": "GoblinDemolisherDeathSpawnProjectile",
+        "pushback": 2000,
+        "radius": 2500,
+        "rarity": "Common",
+        "speed": 400,
+        "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+       },
+       "deployTime": 1000,
+       "hitSpeed": 1200,
+       "hitpoints": 508,
+       "kamikaze": true,
+       "loadTime": 1000,
+       "name": "GoblinDemolisherNewCharacter",
+       "rarity": "Common",
+       "sightRange": 5500,
+       "speed": 120,
+       "tidSpeed": "TID_SPEED_5",
+       "tidTarget": "TID_TARGETS_BUILDINGS"
+      }
+     }
+    ],
+    "healthPercentages": [
+     50
+    ],
+    "name": "GoblinDemolisherOnStartingAction"
+   },
+   "projectileData": {
+    "damage": 73,
+    "name": "GoblinDemolisherProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "GoblinGang": {
+  "id": 26000041,
+  "manaCost": 3,
+  "name": "GoblinGang",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 47,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 79,
+   "loadTime": 500,
+   "name": "GoblinGang",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonCharacterSecondCount": 3,
+  "summonCharacterSecondData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 52,
+   "loadTime": 1300,
+   "name": "SpearGoblin",
+   "projectileData": {
+    "damage": 32,
+    "name": "GoblinGangProjectile",
+    "rarity": "Common",
+    "speed": 500
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "summonRadius": 1000,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "GoblinGiant": {
+  "id": 26000060,
+  "manaCost": 6,
+  "name": "GoblinGiant",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 69,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 1263,
+   "loadTime": 700,
+   "name": "GoblinGiant",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "deathSpawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 500,
+     "deployTime": 1000,
+     "hitSpeed": 1700,
+     "hitpoints": 52,
+     "loadTime": 1300,
+     "name": "SpearGoblin",
+     "projectileData": {
+      "damage": 32,
+      "name": "GoblinGiantProjectile",
+      "rarity": "Common",
+      "speed": 500
+     },
+     "range": 5500,
+     "rarity": "Common",
+     "sightRange": 5500,
+     "speed": 120,
+     "tidSpeed": "TID_SPEED_5",
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "deathSpawnCount": 1,
+    "deployTime": 1000,
+    "hitSpeed": 1700,
+    "hitpoints": 52,
+    "loadTime": 1300,
+    "name": "SpearGoblin",
+    "projectileData": {
+     "damage": 32,
+     "name": "GoblinGiantProjectile",
+     "rarity": "Common",
+     "speed": 500
+    },
+    "range": 5500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 120,
+    "tidSpeed": "TID_SPEED_5",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "spawnNumber": 2,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "GoblinHut": {
+  "id": 27000001,
+  "manaCost": 4,
+  "name": "GoblinHut",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "deployTime": 1000,
+    "hitSpeed": 1700,
+    "hitpoints": 52,
+    "loadTime": 1300,
+    "name": "SpearGoblin",
+    "projectileData": {
+     "damage": 32,
+     "name": "GoblinHutProjectile",
+     "rarity": "Common",
+     "speed": 500
+    },
+    "range": 5500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 120,
+    "tidSpeed": "TID_SPEED_5",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 10000,
+   "hitpoints": 480,
+   "lifeTime": 30000,
+   "name": "GoblinHut",
+   "rarity": "Common",
+   "spawnInterval": 0,
+   "spawnNumber": 0,
+   "spawnPauseTime": 0
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena1"
+ },
+ "GoblinMachine": {
+  "id": 26000096,
+  "manaCost": 5,
+  "name": "GoblinMachine",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 83,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 900,
+   "loadTime": 700,
+   "name": "GoblinMachine",
+   "onStartingActionData": {
+    "attackCooldown": 2500,
+    "attackDelay": 1000,
+    "gameTagsToSetToStopTargetIndication": "UNIT_CUSTOM_TAG_1",
+    "loadTime": 1500,
+    "minimumRange": 2500,
+    "name": "GoblinMachineOnStartingAction",
+    "onProjectileShootActionData": {
+     "name": "GoblinMachineOnProjectileShootAction"
+    },
+    "projectileData": {
+     "crownTowerDamagePercent": -50,
+     "damage": 153,
+     "name": "GoblinMachineProjectile",
+     "radius": 1500,
+     "rarity": "Common",
+     "speed": 250,
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "projectileOffsetToCharacterLookDirection": -1200,
+    "projectileStartZ": 5000,
+    "range": 5000,
+    "targetAoEData": {
+     "lifeDuration": 9999,
+     "name": "GoblinMachineTargetAoE",
+     "onStartingActionData": {
+      "name": "GoblinMachineOnStartingAction",
+      "subActionsData": [
+       {
+        "name": "GoblinMachineSubActions"
+       },
+       {
+        "name": "GoblinMachineSubActions"
+       }
+      ]
+     },
+     "rarity": "Common"
+    },
+    "targetFilter": "DefaultCharacterTargets",
+    "targetIndicatorDelay": 0,
+    "targetStartIndicationActionData": {
+     "name": "GoblinMachineTargetStartIndicationAction"
+    }
+   },
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L1"
+ },
+ "Goblins": {
+  "id": 26000002,
+  "manaCost": 2,
+  "name": "Goblins",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 47,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 79,
+   "loadTime": 500,
+   "name": "Goblins",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonDeployDelay": 200,
+  "summonNumber": 4,
+  "summonRadius": 700,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Goblin",
+  "unlockArena": "Arena1"
+ },
+ "Goblinstein": {
+  "id": 26000099,
+  "manaCost": 5,
+  "name": "Goblinstein",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 50,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 900,
+   "loadTime": 700,
+   "name": "Goblinstein",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonCharacterSecondCount": 1,
+  "summonCharacterSecondData": {
+   "abilityData": {
+    "cooldown": 17000,
+    "manaCost": 2,
+    "name": "GoblinsteinAbility",
+    "onActivationActionData": {
+     "name": "GoblinsteinOnActivationAction",
+     "spawnDataData": {
+      "name": "GoblinsteinSpawn",
+      "rarity": "Common"
+     },
+     "spawnTime": 1250
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 282,
+   "loadTime": 1300,
+   "name": "Doctor",
+   "onStartingAction": {
+    "classType": "ActionSpawn",
+    "spawnData": "AOE_goblinstein_ability",
+    "spawnType": "AreaEffectType"
+   },
+   "projectileData": {
+    "buffTime": 500,
+    "damage": 36,
+    "name": "GoblinsteinProjectile",
+    "rarity": "Common",
+    "speed": 500,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "GoblinsteinTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    }
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "summonRadius": 3500,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L4"
+ },
+ "GoldenKnight": {
+  "id": 26000074,
+  "manaCost": 4,
+  "name": "GoldenKnight",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "cooldown": 8000,
+    "dashRange": 5500,
+    "manaCost": 1,
+    "name": "GoldenKnightAbility"
+   },
+   "attacksGround": true,
+   "collisionRadius": 800,
+   "damage": 63,
+   "dashCount": 10,
+   "dashDamage": 131,
+   "dashSecondaryRange": 5500,
+   "deployTime": 1000,
+   "hitSpeed": 900,
+   "hitpoints": 703,
+   "jumpSpeed": 400,
+   "loadTime": 700,
+   "name": "GoldenKnight",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L2"
+ },
+ "Golem": {
+  "id": 26000009,
+  "manaCost": 8,
+  "name": "Golem",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 122,
+   "deathDamage": 88,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 19,
+    "deathDamage": 39,
+    "deployTime": 1000,
+    "hitSpeed": 2500,
+    "hitpoints": 406,
+    "loadTime": 1500,
+    "name": "MiniGolem",
+    "range": 250,
+    "rarity": "Common",
+    "sightRange": 7000,
+    "speed": 45,
+    "tidSpeed": "TID_SPEED_2",
+    "tidTarget": "TID_TARGETS_BUILDINGS"
+   },
+   "deathSpawnCount": 2,
+   "deployTime": 3000,
+   "hitSpeed": 2500,
+   "hitpoints": 2000,
+   "loadTime": 1500,
+   "name": "Golem",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 7000,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L"
+ },
+ "Graveyard": {
+  "areaEffectObjectData": {
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 9000,
+   "name": "Graveyard",
+   "radius": 4000,
+   "rarity": "Common",
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1000,
+    "hitpoints": 32,
+    "loadTime": 500,
+    "name": "Larry",
+    "range": 500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "spawnInterval": 500,
+   "spawnTime": 400
+  },
+  "id": 28000010,
+  "manaCost": 5,
+  "name": "Graveyard",
+  "radius": 4000,
+  "rarity": "Legendary",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_T"
+ },
+ "Guard": {
+  "name": "Guard",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 46,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 32,
+   "loadTime": 600,
+   "name": "Guard",
+   "range": 1600,
+   "rarity": "Common",
+   "shieldHitpoints": 100,
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "Guards": {
+  "id": 26000025,
+  "manaCost": 3,
+  "name": "Guards",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 46,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 32,
+   "loadTime": 600,
+   "name": "Guards",
+   "range": 1600,
+   "rarity": "Common",
+   "shieldHitpoints": 100,
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena6"
+ },
+ "HealSpirit": {
+  "id": 28000016,
+  "manaCost": 1,
+  "name": "HealSpirit",
+  "rarity": "Rare",
+  "spellAsDeploy": true,
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 90,
+   "kamikaze": true,
+   "loadTime": 100,
+   "name": "HealSpirit",
+   "projectileData": {
+    "damage": 43,
+    "name": "HealSpiritProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "spawnAreaEffectObjectData": {
+     "buffData": {
+      "healPerSecond": 157,
+      "hitFrequency": 250,
+      "name": "HealSpiritBuff",
+      "rarity": "Common"
+     },
+     "buffTime": 1000,
+     "hitSpeed": 0,
+     "hitsAir": true,
+     "hitsGround": true,
+     "lifeDuration": 1000,
+     "name": "HealSpirit",
+     "radius": 2500,
+     "rarity": "Common"
+    },
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 2500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena13"
+ },
+ "HogRider": {
+  "id": 26000021,
+  "manaCost": 4,
+  "name": "HogRider",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 124,
+   "deployTime": 1000,
+   "hitSpeed": 1600,
+   "hitpoints": 663,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 1000,
+   "name": "HogRider",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 9500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena5"
+ },
+ "Hunter": {
+  "id": 26000044,
+  "manaCost": 4,
+  "name": "Hunter",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "areaDamageRadius": 70,
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "customFirstProjectileData": {
+    "damage": 33,
+    "name": "HunterCustomFirstProjectile",
+    "projectileRange": 6500,
+    "rarity": "Common",
+    "speed": 550,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 2200,
+   "hitpoints": 346,
+   "loadTime": 1500,
+   "multipleProjectiles": 10,
+   "name": "Hunter",
+   "projectileData": {
+    "damage": 33,
+    "name": "HunterProjectile",
+    "projectileRange": 6500,
+    "rarity": "Common",
+    "speed": 550,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 4000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L"
+ },
+ "IceGolem": {
+  "id": 26000038,
+  "manaCost": 2,
+  "name": "IceGolem",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 700,
+   "damage": 33,
+   "deathAreaEffectData": {
+    "buffData": {
+     "hitSpeedMultiplier": -35,
+     "name": "IceGolemBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -35,
+     "speedMultiplier": -35
+    },
+    "buffTime": 2000,
+    "hitsAir": true,
+    "hitsGround": true,
+    "lifeDuration": 1000,
+    "name": "IceGolemDeathAreaEffect",
+    "onlyEnemies": true,
+    "radius": 2000,
+    "rarity": "Common"
+   },
+   "deathDamage": 33,
+   "deployTime": 1000,
+   "hitSpeed": 2500,
+   "hitpoints": 468,
+   "loadTime": 1500,
+   "name": "IceGolem",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 7000,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena8"
+ },
+ "IceSpirit": {
+  "id": 26000030,
+  "manaCost": 1,
+  "name": "IceSpirit",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 90,
+   "kamikaze": true,
+   "loadTime": 100,
+   "name": "IceSpirit",
+   "projectileData": {
+    "buffTime": 1200,
+    "damage": 43,
+    "name": "IceSpiritProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 400,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "Freeze",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    },
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 2500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena8"
+ },
+ "IceWizard": {
+  "id": 26000023,
+  "manaCost": 3,
+  "name": "IceWizard",
+  "radius": 3000,
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 269,
+   "loadTime": 1200,
+   "name": "IceWizard",
+   "projectileData": {
+    "buffTime": 2500,
+    "damage": 35,
+    "name": "IceWizardProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 700,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -35,
+     "name": "IceWizardTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -35,
+     "speedMultiplier": -35
+    },
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnAreaObjectData": {
+    "buffData": {
+     "hitSpeedMultiplier": -35,
+     "name": "IceWizardBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -35,
+     "speedMultiplier": -35
+    },
+    "buffTime": 1000,
+    "crownTowerDamagePercent": -100,
+    "damage": 33,
+    "hitsAir": true,
+    "hitsGround": true,
+    "lifeDuration": 1,
+    "name": "IceWizardSpawnAreaObject",
+    "onlyEnemies": true,
+    "radius": 3000,
+    "rarity": "Common"
+   },
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "InfernoDragon": {
+  "id": 26000037,
+  "manaCost": 4,
+  "name": "InfernoDragon",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 14,
+   "deployTime": 1000,
+   "hitSpeed": 400,
+   "hitpoints": 506,
+   "loadTime": 1200,
+   "name": "InfernoDragon",
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND",
+   "variableDamage2": 47,
+   "variableDamage3": 165
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "InfernoTower": {
+  "id": 27000003,
+  "manaCost": 5,
+  "name": "InfernoTower",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 600,
+   "damage": 17,
+   "deployTime": 1000,
+   "hitSpeed": 400,
+   "hitpoints": 683,
+   "lifeTime": 30000,
+   "loadTime": 1200,
+   "name": "InfernoTower",
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND",
+   "variableDamage2": 62,
+   "variableDamage3": 331
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena4"
+ },
+ "Knight": {
+  "id": 26000000,
+  "manaCost": 3,
+  "name": "Knight",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 79,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 690,
+   "loadTime": 700,
+   "name": "Knight",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Kingdom",
+  "unlockArena": "TrainingCamp"
+ },
+ "Larry": {
+  "name": "Larry",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 32,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 32,
+   "loadTime": 500,
+   "name": "Larry",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "LavaHound": {
+  "id": 26000029,
+  "manaCost": 7,
+  "name": "LavaHound",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 450,
+    "deployTime": 1000,
+    "hitSpeed": 1700,
+    "hitpoints": 85,
+    "loadTime": 700,
+    "name": "LavaPup",
+    "projectileData": {
+     "damage": 32,
+     "name": "LavaHoundProjectile",
+     "rarity": "Common",
+     "speed": 500,
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "range": 1600,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 6,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 1399,
+   "loadTime": 300,
+   "name": "LavaHound",
+   "projectileData": {
+    "damage": 21,
+    "name": "LavaHoundProjectile",
+    "rarity": "Common",
+    "speed": 400,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "LavaPup": {
+  "name": "LavaPup",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 450,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 85,
+   "loadTime": 700,
+   "name": "LavaPup",
+   "projectileData": {
+    "damage": 32,
+    "name": "LavaPupProjectile",
+    "rarity": "Common",
+    "speed": 500,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "Lightning": {
+  "areaEffectObjectData": {
+   "hitSpeed": 460,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 1500,
+   "name": "Lightning",
+   "onlyEnemies": true,
+   "projectileData": {
+    "buffTime": 500,
+    "crownTowerDamagePercent": -73,
+    "damage": 413,
+    "name": "LightningProjectile",
+    "rarity": "Common",
+    "speed": 500,
+    "targetBuffData": {
+     "hitSpeedMultiplier": -100,
+     "name": "LightningTargetBuff",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": -100,
+     "speedMultiplier": -100
+    }
+   },
+   "radius": 3500,
+   "rarity": "Common"
+  },
+  "id": 28000007,
+  "manaCost": 6,
+  "name": "Lightning",
+  "radius": 3500,
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena8"
+ },
+ "LittlePrince": {
+  "id": 26000093,
+  "manaCost": 3,
+  "name": "LittlePrince",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "cooldown": 30000,
+    "manaCost": 3,
+    "name": "LittlePrinceAbility",
+    "onActivationActionData": {
+     "name": "LittlePrinceOnActivationAction",
+     "nextAction.spawnDataData": {
+      "hitSpeed": 0,
+      "lifeDuration": 1000,
+      "name": "LittlePrinceNextAction.spawn",
+      "onStartingActionData": {
+       "name": "LittlePrinceOnStartingAction",
+       "pushBackDamage": 90,
+       "pushBackStrength": 2000,
+       "spawnDataData": {
+        "attacksGround": true,
+        "collisionRadius": 800,
+        "damage": 79,
+        "dashMaxRange": 999999,
+        "deployTime": 300,
+        "hitSpeed": 1200,
+        "hitpoints": 625,
+        "jumpSpeed": 400,
+        "loadTime": 700,
+        "name": "PrinceGuardian",
+        "range": 1200,
+        "rarity": "Common",
+        "sightRange": 5500,
+        "speed": 60,
+        "tidSpeed": "TID_SPEED_3",
+        "tidTarget": "TID_TARGETS_GROUND"
+       }
+      },
+      "rarity": "Common"
+     }
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 273,
+   "loadTime": 800,
+   "name": "LittlePrince",
+   "projectileData": {
+    "damage": 39,
+    "name": "LittlePrinceProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L4"
+ },
+ "Log": {
+  "id": 28000011,
+  "manaCost": 2,
+  "name": "Log",
+  "projectileData": {
+   "name": "LogProjectile",
+   "radius": 1950,
+   "radiusY": 600,
+   "rarity": "Common",
+   "spawnChain": 1,
+   "spawnProjectileData": {
+    "crownTowerDamagePercent": -85,
+    "damage": 113,
+    "name": "LogSpawnProjectile",
+    "projectileRange": 10100,
+    "pushback": 700,
+    "rarity": "Common",
+    "speed": 200,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "speed": 360
+  },
+  "rarity": "Legendary",
+  "spellAsDeploy": true,
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_Electric"
+ },
+ "Lumberjack": {
+  "id": 26000035,
+  "manaCost": 4,
+  "name": "Lumberjack",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 100,
+   "deathAreaEffectData": {
+    "lifeDuration": 50,
+    "name": "LumberjackDeathAreaEffect",
+    "onStartingActionData": {
+     "name": "LumberjackOnStartingAction",
+     "spawnDataData": {
+      "deathAreaEffectData": {
+       "buffData": {
+        "hitSpeedMultiplier": 135,
+        "name": "Rage",
+        "rarity": "Common",
+        "spawnSpeedMultiplier": 135,
+        "speedMultiplier": 135
+       },
+       "buffTime": 1000,
+       "hitSpeed": 300,
+       "hitsAir": true,
+       "hitsGround": true,
+       "lifeDuration": 5500,
+       "name": "LumberjackDeathAreaEffect",
+       "radius": 3000,
+       "rarity": "Common",
+       "spawnAreaEffectObjectData": {
+        "crownTowerDamagePercent": -70,
+        "damage": 58,
+        "hitsAir": true,
+        "hitsGround": true,
+        "lifeDuration": 1,
+        "name": "LumberjackSpawnAreaEffectObject",
+        "onlyEnemies": true,
+        "radius": 3000,
+        "rarity": "Common"
+       }
+      },
+      "deployTime": 500,
+      "name": "LumberjackSpawn",
+      "rarity": "Common"
+     }
+    },
+    "rarity": "Common"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 800,
+   "hitpoints": 501,
+   "loadTime": 400,
+   "name": "Lumberjack",
+   "range": 700,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena14"
+ },
+ "MagicArcher": {
+  "id": 26000062,
+  "manaCost": 4,
+  "name": "MagicArcher",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 207,
+   "loadTime": 400,
+   "name": "MagicArcher",
+   "projectileData": {
+    "damage": 52,
+    "name": "MagicArcherProjectile",
+    "projectileRange": 11000,
+    "radius": 250,
+    "rarity": "Common",
+    "speed": 1000,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 7000,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "MegaKnight": {
+  "id": 26000055,
+  "manaCost": 7,
+  "name": "MegaKnight",
+  "projectileData": {
+   "damage": 168,
+   "name": "MegaKnightProjectile",
+   "pushback": 1000,
+   "radius": 2200,
+   "rarity": "Common",
+   "speed": 1000,
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "areaDamageRadius": 1300,
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 105,
+   "dashDamage": 210,
+   "dashMaxRange": 5000,
+   "dashMinRange": 3500,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 1560,
+   "jumpHeight": 3000,
+   "jumpSpeed": 250,
+   "loadTime": 1200,
+   "name": "MegaKnight",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnInterval": 1,
+   "spawnNumber": 1,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "MegaMinion": {
+  "id": 26000039,
+  "manaCost": 3,
+  "name": "MegaMinion",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 327,
+   "loadTime": 1100,
+   "name": "MegaMinion",
+   "projectileData": {
+    "damage": 122,
+    "name": "MegaMinionProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena3"
+ },
+ "MightyMiner": {
+  "id": 26000065,
+  "manaCost": 4,
+  "name": "MightyMiner",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "activationSpawnCharacterData": {
+     "collisionRadius": 450,
+     "deathDamage": 130,
+     "deployTime": 1000,
+     "name": "MightyMinerActivationSpawnCharacter",
+     "rarity": "Common",
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "activationSpawnDeployTime": 0,
+    "cooldown": 13000,
+    "manaCost": 1,
+    "name": "MightyMinerAbility"
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 16,
+   "deployTime": 1000,
+   "hitSpeed": 400,
+   "hitpoints": 879,
+   "loadTime": 700,
+   "name": "MightyMiner",
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND",
+   "variableDamage2": 80,
+   "variableDamage3": 160
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L3"
+ },
+ "Miner": {
+  "id": 26000032,
+  "manaCost": 3,
+  "name": "Miner",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "crownTowerDamagePercent": -75,
+   "damage": 76,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 473,
+   "loadTime": 700,
+   "name": "Miner",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "MiniElixirGolem": {
+  "name": "MiniElixirGolem",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 50,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 400,
+    "damage": 25,
+    "deployTime": 1000,
+    "hitSpeed": 1100,
+    "hitpoints": 141,
+    "loadTime": 300,
+    "name": "ElixirGolemSmall",
+    "range": 800,
+    "rarity": "Common",
+    "sightRange": 7500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_BUILDINGS"
+   },
+   "deathSpawnCount": 2,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 298,
+   "loadTime": 300,
+   "name": "MiniElixirGolem",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "MiniGolem": {
+  "name": "MiniGolem",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 19,
+   "deathDamage": 39,
+   "deployTime": 1000,
+   "hitSpeed": 2500,
+   "hitpoints": 406,
+   "loadTime": 1500,
+   "name": "MiniGolem",
+   "range": 250,
+   "rarity": "Common",
+   "sightRange": 7000,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "MiniPEKKA": {
+  "id": 26000018,
+  "manaCost": 4,
+  "name": "MiniPEKKA",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 450,
+   "damage": 295,
+   "deployTime": 1000,
+   "hitSpeed": 1600,
+   "hitpoints": 532,
+   "loadTime": 1100,
+   "name": "MiniPEKKA",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "TrainingCamp"
+ },
+ "Minion": {
+  "name": "Minion",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 90,
+   "loadTime": 500,
+   "name": "Minion",
+   "projectileData": {
+    "damage": 46,
+    "name": "MinionProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "MinionHorde": {
+  "id": 26000022,
+  "manaCost": 5,
+  "name": "MinionHorde",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 90,
+   "loadTime": 500,
+   "name": "MinionHorde",
+   "projectileData": {
+    "damage": 46,
+    "name": "MinionHordeProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 6,
+  "summonRadius": 600,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L"
+ },
+ "Minions": {
+  "id": 26000005,
+  "manaCost": 3,
+  "name": "Minions",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 90,
+   "loadTime": 500,
+   "name": "Minions",
+   "projectileData": {
+    "damage": 46,
+    "name": "MinionsProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "TrainingCamp"
+ },
+ "Mirror": {
+  "id": 28000006,
+  "manaCost": 1,
+  "name": "Mirror",
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_L1"
+ },
+ "Monk": {
+  "id": 26000077,
+  "manaCost": 5,
+  "name": "Monk",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "areaEffectObjectData": {
+     "hitsAir": true,
+     "hitsGround": true,
+     "lifeDuration": 4000,
+     "name": "MonkAreaEffectObject",
+     "onlyEnemies": true,
+     "radius": 1500,
+     "rarity": "Common"
+    },
+    "buffData": {
+     "damageReduction": 80,
+     "name": "MonkBuff",
+     "rarity": "Common"
+    },
+    "buffTime": 4000,
+    "cooldown": 17000,
+    "manaCost": 1,
+    "name": "MonkAbility",
+    "onActivationActionData": {
+     "name": "MonkOnActivationAction"
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 55,
+   "deployTime": 1000,
+   "hitSpeed": 800,
+   "hitpoints": 840,
+   "isMeleePushbackAll3": true,
+   "loadTime": 600,
+   "name": "Monk",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND",
+   "variableDamage2": 55,
+   "variableDamage3": 165
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L4"
+ },
+ "Monster": {
+  "name": "Monster",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 50,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 900,
+   "loadTime": 700,
+   "name": "Monster",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "Mortar": {
+  "id": 27000002,
+  "manaCost": 4,
+  "name": "Mortar",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "collisionRadius": 600,
+   "deployTime": 3500,
+   "hitSpeed": 5000,
+   "hitpoints": 535,
+   "lifeTime": 30000,
+   "loadTime": 4000,
+   "name": "Mortar",
+   "projectileData": {
+    "damage": 104,
+    "name": "MortarProjectile",
+    "radius": 2000,
+    "rarity": "Common",
+    "speed": 300,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 11500,
+   "rarity": "Common",
+   "sightRange": 11500,
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena5"
+ },
+ "MotherWitch": {
+  "id": 26000083,
+  "manaCost": 4,
+  "name": "MotherWitch",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "buffOnDamageData": {
+    "deathSpawnCount": 1,
+    "deathSpawnData": {
+     "attacksGround": true,
+     "collisionRadius": 600,
+     "damage": 21,
+     "deployTime": 200,
+     "hitSpeed": 1200,
+     "hitpoints": 246,
+     "jumpHeight": 4000,
+     "jumpSpeed": 160,
+     "loadTime": 950,
+     "name": "CursedHog",
+     "range": 750,
+     "rarity": "Common",
+     "sightRange": 9500,
+     "speed": 120,
+     "tidSpeed": "TID_SPEED_5",
+     "tidTarget": "TID_TARGETS_BUILDINGS"
+    },
+    "name": "MotherWitchBuffOnDamage",
+    "rarity": "Common"
+   },
+   "buffOnDamageTime": 5000,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 207,
+   "loadTime": 700,
+   "name": "MotherWitch",
+   "projectileData": {
+    "buffTime": 5000,
+    "damage": 52,
+    "name": "MotherWitchProjectile",
+    "rarity": "Common",
+    "speed": 600,
+    "targetBuffData": {
+     "deathSpawnCount": 1,
+     "deathSpawnData": {
+      "attacksGround": true,
+      "collisionRadius": 600,
+      "damage": 21,
+      "deployTime": 200,
+      "hitSpeed": 1200,
+      "hitpoints": 246,
+      "jumpHeight": 4000,
+      "jumpSpeed": 160,
+      "loadTime": 950,
+      "name": "CursedHog",
+      "range": 750,
+      "rarity": "Common",
+      "sightRange": 9500,
+      "speed": 120,
+      "tidSpeed": "TID_SPEED_5",
+      "tidTarget": "TID_TARGETS_BUILDINGS"
+     },
+     "name": "MotherWitchTargetBuff",
+     "rarity": "Common"
+    }
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L1"
+ },
+ "Musketeer": {
+  "id": 26000014,
+  "manaCost": 4,
+  "name": "Musketeer",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 282,
+   "loadTime": 300,
+   "name": "Musketeer",
+   "projectileData": {
+    "damage": 85,
+    "name": "MusketeerProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "TrainingCamp"
+ },
+ "NightWitch": {
+  "id": 26000048,
+  "manaCost": 4,
+  "name": "NightWitch",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 123,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1300,
+    "hitpoints": 32,
+    "loadTime": 700,
+    "name": "Bat",
+    "range": 1200,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 120,
+    "tidSpeed": "TID_SPEED_5",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 354,
+   "loadTime": 550,
+   "name": "NightWitch",
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1300,
+    "hitpoints": 32,
+    "loadTime": 700,
+    "name": "Bat",
+    "range": 1200,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 120,
+    "tidSpeed": "TID_SPEED_5",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "spawnNumber": 2,
+   "spawnPauseTime": 5000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena14"
+ },
+ "P-E-K-K-A": {
+  "id": 26000004,
+  "manaCost": 7,
+  "name": "P-E-K-K-A",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 319,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 1469,
+   "loadTime": 1300,
+   "name": "P-E-K-K-A",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5000,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Beast",
+  "unlockArena": "Arena6"
+ },
+ "Phoenix": {
+  "id": 26000087,
+  "manaCost": 4,
+  "name": "Phoenix",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 85,
+   "deathSpawnProjectileData": {
+    "crownTowerDamagePercent": -70,
+    "damage": 64,
+    "name": "PhoenixDeathSpawnProjectile",
+    "pushback": 2000,
+    "radius": 2500,
+    "rarity": "Common",
+    "spawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 600,
+     "deployTime": 1000,
+     "hitSpeed": 1000,
+     "hitpoints": 94,
+     "loadTime": 500,
+     "name": "PhoenixEgg",
+     "rarity": "Common",
+     "sightRange": 5500,
+     "spawnCharacterData": {
+      "attacksGround": true,
+      "collisionRadius": 500,
+      "deployTime": 733,
+      "hitSpeed": 1000,
+      "hitpoints": 329,
+      "loadTime": 500,
+      "name": "PhoenixSpawnCharacter",
+      "rarity": "Common",
+      "sightRange": 5500,
+      "speed": 60,
+      "tidSpeed": "TID_SPEED_3",
+      "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+     },
+     "spawnNumber": 1,
+     "spawnPauseTime": 4300
+    },
+    "speed": 600,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 411,
+   "loadTime": 500,
+   "name": "Phoenix",
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "PhoenixEgg": {
+  "name": "PhoenixEgg",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 94,
+   "loadTime": 500,
+   "name": "PhoenixEgg",
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "deployTime": 733,
+    "hitSpeed": 1000,
+    "hitpoints": 329,
+    "loadTime": 500,
+    "name": "PhoenixEggSpawnCharacter",
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "spawnNumber": 1,
+   "spawnPauseTime": 4300
+  }
+ },
+ "Poison": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "crownTowerDamagePercent": -75,
+    "damagePerSecond": 36,
+    "hitFrequency": 1000,
+    "name": "Poison",
+    "rarity": "Common",
+    "speedMultiplier": -15
+   },
+   "buffTime": 1000,
+   "hitSpeed": 250,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 8000,
+   "name": "Poison",
+   "onlyEnemies": true,
+   "radius": 3500,
+   "rarity": "Common"
+  },
+  "id": 28000009,
+  "manaCost": 4,
+  "name": "Poison",
+  "radius": 3500,
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena9"
+ },
+ "Prince": {
+  "id": 26000016,
+  "manaCost": 5,
+  "name": "Prince",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "chargeRange": 200,
+   "collisionRadius": 600,
+   "damage": 153,
+   "damageSpecial": 306,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 750,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 900,
+   "name": "Prince",
+   "range": 1600,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "tribe": "Magic",
+  "unlockArena": "Arena7"
+ },
+ "PrinceGuardian": {
+  "name": "PrinceGuardian",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 800,
+   "damage": 79,
+   "dashMaxRange": 999999,
+   "deployTime": 300,
+   "hitSpeed": 1200,
+   "hitpoints": 625,
+   "jumpSpeed": 400,
+   "loadTime": 700,
+   "name": "PrinceGuardian",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "Princess": {
+  "id": 26000026,
+  "manaCost": 3,
+  "name": "Princess",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "areaDamageRadius": 2500,
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "customFirstProjectileData": {
+    "damage": 66,
+    "name": "PrincessCustomFirstProjectile",
+    "radius": 2000,
+    "rarity": "Common",
+    "speed": 600,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deployTime": 1200,
+   "hitSpeed": 3000,
+   "hitpoints": 102,
+   "loadTime": 2700,
+   "multipleProjectiles": 5,
+   "name": "Princess",
+   "projectileData": {
+    "name": "PrincessProjectile",
+    "rarity": "Common",
+    "speed": 600
+   },
+   "range": 9000,
+   "rarity": "Common",
+   "sightRange": 9500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "PrincessTower": {
+  "name": "PrincessTower",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "hitSpeed": 800,
+   "hitpoints": 1400,
+   "name": "PrincessTowerSummonCharacter",
+   "projectileData": {
+    "damage": 50,
+    "name": "PrincessTowerProjectile",
+    "rarity": "Common",
+    "speed": 600
+   },
+   "range": 7500,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "Rage": {
+  "id": 28000002,
+  "manaCost": 2,
+  "name": "Rage",
+  "radius": 3000,
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "deathAreaEffectData": {
+    "buffData": {
+     "hitSpeedMultiplier": 135,
+     "name": "Rage",
+     "rarity": "Common",
+     "spawnSpeedMultiplier": 135,
+     "speedMultiplier": 135
+    },
+    "buffTime": 1000,
+    "hitSpeed": 300,
+    "hitsAir": true,
+    "hitsGround": true,
+    "lifeDuration": 5500,
+    "name": "Rage",
+    "radius": 3000,
+    "rarity": "Common",
+    "spawnAreaEffectObjectData": {
+     "crownTowerDamagePercent": -70,
+     "damage": 58,
+     "hitsAir": true,
+     "hitsGround": true,
+     "lifeDuration": 1,
+     "name": "RageSpawnAreaEffectObject",
+     "onlyEnemies": true,
+     "radius": 3000,
+     "rarity": "Common"
+    }
+   },
+   "deployTime": 500,
+   "name": "Rage",
+   "rarity": "Common"
+  },
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena14"
+ },
+ "RamRider": {
+  "id": 26000051,
+  "manaCost": 5,
+  "name": "RamRider",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "chargeRange": 200,
+   "collisionRadius": 600,
+   "damage": 98,
+   "damageSpecial": 196,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 663,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 1200,
+   "name": "RamRider",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 600,
+    "deployTime": 1000,
+    "hitSpeed": 1100,
+    "hitpoints": 232,
+    "loadTime": 700,
+    "name": "RamRider",
+    "projectileData": {
+     "buffTime": 2000,
+     "damage": 41,
+     "name": "RamRiderProjectile",
+     "rarity": "Common",
+     "speed": 600,
+     "targetBuffData": {
+      "name": "RamRiderTargetBuff",
+      "rarity": "Common",
+      "speedMultiplier": -70
+     },
+     "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+    },
+    "range": 5500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 60,
+    "tidSpeed": "TID_SPEED_3",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "spawnNumber": 1,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "Rascals": {
+  "id": 26000053,
+  "manaCost": 5,
+  "name": "Rascals",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 52,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 758,
+   "loadTime": 1100,
+   "name": "Rascals",
+   "range": 800,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonCharacterSecondCount": 2,
+  "summonCharacterSecondData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 102,
+   "loadTime": 500,
+   "name": "ArcherRascal",
+   "projectileData": {
+    "damage": 52,
+    "name": "RascalsProjectile",
+    "rarity": "Common",
+    "speed": 800
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonNumber": 1,
+  "summonRadius": 3000,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "Rocket": {
+  "id": 28000003,
+  "manaCost": 6,
+  "name": "Rocket",
+  "projectileData": {
+   "crownTowerDamagePercent": -75,
+   "damage": 580,
+   "name": "RocketProjectile",
+   "pushback": 1800,
+   "radius": 2000,
+   "rarity": "Common",
+   "speed": 350,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "rarity": "Rare",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena5"
+ },
+ "RoyalDelivery": {
+  "areaEffectObjectData": {
+   "hitSpeed": 2000,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 2000,
+   "name": "RoyalDeliveryAreaEffectObject",
+   "onlyEnemies": true,
+   "projectileData": {
+    "damage": 171,
+    "name": "RoyalDeliveryProjectile",
+    "radius": 3000,
+    "rarity": "Common",
+    "spawnCharacterCount": 1,
+    "spawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 500,
+     "damage": 52,
+     "deployTime": 1000,
+     "hitSpeed": 1300,
+     "hitpoints": 214,
+     "loadTime": 800,
+     "name": "RoyalRecruit",
+     "range": 1600,
+     "rarity": "Common",
+     "shieldHitpoints": 94,
+     "sightRange": 5500,
+     "speed": 60,
+     "tidSpeed": "TID_SPEED_3",
+     "tidTarget": "TID_TARGETS_GROUND"
+    },
+    "speed": 5000,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "radius": 3000,
+   "rarity": "Common",
+   "spawnTime": 250
+  },
+  "id": 28000018,
+  "manaCost": 3,
+  "name": "RoyalDelivery",
+  "radius": 3000,
+  "rarity": "Common",
+  "spellAsDeploy": true,
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena14"
+ },
+ "RoyalGhost": {
+  "id": 26000050,
+  "manaCost": 3,
+  "name": "RoyalGhost",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "areaDamageRadius": 1000,
+   "attacksGround": true,
+   "buffWhenNotAttackingData": {
+    "name": "RoyalGhostBuffWhenNotAttacking",
+    "rarity": "Common"
+   },
+   "buffWhenNotAttackingTime": 1800,
+   "collisionRadius": 600,
+   "damage": 102,
+   "deployTime": 1000,
+   "hitSpeed": 1800,
+   "hitpoints": 473,
+   "loadTime": 1200,
+   "name": "RoyalGhost",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "RoyalGiant": {
+  "id": 26000024,
+  "manaCost": 6,
+  "name": "RoyalGiant",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 1236,
+   "loadTime": 800,
+   "name": "RoyalGiant",
+   "projectileData": {
+    "damage": 120,
+    "name": "RoyalGiantProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "RoyalHog": {
+  "name": "RoyalHog",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 29,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 327,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 800,
+   "name": "RoyalHog",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 9500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "RoyalHogs": {
+  "id": 26000059,
+  "manaCost": 5,
+  "name": "RoyalHogs",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 600,
+   "damage": 29,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 327,
+   "jumpHeight": 4000,
+   "jumpSpeed": 160,
+   "loadTime": 800,
+   "name": "RoyalHogs",
+   "range": 750,
+   "rarity": "Common",
+   "sightRange": 9500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 4,
+  "summonRadius": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "RoyalRecruit": {
+  "name": "RoyalRecruit",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 52,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 214,
+   "loadTime": 800,
+   "name": "RoyalRecruit",
+   "range": 1600,
+   "rarity": "Common",
+   "shieldHitpoints": 94,
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  }
+ },
+ "RoyalRecruits": {
+  "id": 26000047,
+  "manaCost": 7,
+  "name": "RoyalRecruits",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 52,
+   "deployTime": 1000,
+   "hitSpeed": 1300,
+   "hitpoints": 214,
+   "loadTime": 800,
+   "name": "RoyalRecruits",
+   "range": 1600,
+   "rarity": "Common",
+   "shieldHitpoints": 94,
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 6,
+  "summonRadius": 500,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "RuneGiant": {
+  "id": 26000101,
+  "manaCost": 4,
+  "name": "RuneGiant",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "abilityData": {
+    "cooldown": 0,
+    "manaCost": 0,
+    "name": "RuneGiantAbility",
+    "onActivationAction": {
+     "classType": "ActionPlayEffect"
+    }
+   },
+   "attacksGround": true,
+   "collisionRadius": 750,
+   "damage": 47,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 1040,
+   "loadTime": 1000,
+   "name": "RuneGiant",
+   "onStartingActionData": {
+    "actionWhenUnitBuffedData": {
+     "addedCrownTowerDamage": 86,
+     "addedDamage": 86,
+     "name": "RuneGiantActionWhenUnitBuffed",
+     "visualActionForEnemyTargetData": {
+      "addedDamageMergeDuration": 250,
+      "name": "RuneGiantVisualActionForEnemyTarget"
+     }
+    },
+    "maxFriendlyTroops": 2,
+    "name": "RuneGiantOnStartingAction",
+    "projectileData": {
+     "damage": 0,
+     "name": "RuneGiantProjectile",
+     "radius": 1,
+     "rarity": "Common",
+     "speed": 600
+    },
+    "targetFilter": "friendly_troops_for_chef_giant_buffer"
+   },
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "SkeletonArmy": {
+  "id": 26000012,
+  "manaCost": 3,
+  "name": "SkeletonArmy",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 32,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 32,
+   "loadTime": 500,
+   "name": "SkeletonArmy",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonCharacterLevelIndex": 5,
+  "summonNumber": 15,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena6"
+ },
+ "SkeletonBarrel": {
+  "id": 26000056,
+  "manaCost": 3,
+  "name": "SkeletonBarrel",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deathSpawnCharacterData": {
+    "deathDamage": 57,
+    "deathSpawnCharacterData": {
+     "attacksGround": true,
+     "collisionRadius": 500,
+     "damage": 32,
+     "deployTime": 1000,
+     "hitSpeed": 1000,
+     "hitpoints": 32,
+     "loadTime": 500,
+     "name": "Larry",
+     "range": 500,
+     "rarity": "Common",
+     "sightRange": 5500,
+     "speed": 90,
+     "tidSpeed": "TID_SPEED_4",
+     "tidTarget": "TID_TARGETS_GROUND"
+    },
+    "deathSpawnCount": 7,
+    "deployTime": 600,
+    "name": "SkeletonBarrelDeathSpawnCharacter",
+    "rarity": "Common",
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "deathSpawnCount": 1,
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 208,
+   "kamikaze": true,
+   "loadTime": 200,
+   "name": "SkeletonBarrel",
+   "rarity": "Common",
+   "sightRange": 7700,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena9"
+ },
+ "SkeletonDragon": {
+  "name": "SkeletonDragon",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 900,
+   "deployTime": 1000,
+   "hitSpeed": 1900,
+   "hitpoints": 219,
+   "loadTime": 1500,
+   "name": "SkeletonDragon",
+   "projectileData": {
+    "damage": 63,
+    "name": "SkeletonDragonProjectile",
+    "radius": 800,
+    "rarity": "Common",
+    "speed": 500,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "SkeletonDragons": {
+  "id": 26000080,
+  "manaCost": 4,
+  "name": "SkeletonDragons",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 900,
+   "deployTime": 1000,
+   "hitSpeed": 1900,
+   "hitpoints": 219,
+   "loadTime": 1500,
+   "name": "SkeletonDragons",
+   "projectileData": {
+    "damage": 63,
+    "name": "SkeletonDragonsProjectile",
+    "radius": 800,
+    "rarity": "Common",
+    "speed": 500,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 3500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 2,
+  "summonRadius": 1500,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena4"
+ },
+ "SkeletonKing": {
+  "id": 26000069,
+  "manaCost": 4,
+  "name": "SkeletonKing",
+  "rarity": "Champion",
+  "summonCharacterData": {
+   "abilityData": {
+    "areaEffectObjectData": {
+     "hitsAir": true,
+     "hitsGround": true,
+     "lifeDuration": 10000,
+     "name": "SkeletonKingAreaEffectObject",
+     "radius": 4000,
+     "rarity": "Common",
+     "spawnCharacterData": {
+      "attacksGround": true,
+      "collisionRadius": 500,
+      "damage": 32,
+      "deployTime": 1000,
+      "hitSpeed": 1000,
+      "hitpoints": 32,
+      "loadTime": 500,
+      "name": "Larry",
+      "range": 500,
+      "rarity": "Common",
+      "sightRange": 5500,
+      "speed": 90,
+      "tidSpeed": "TID_SPEED_4",
+      "tidTarget": "TID_TARGETS_GROUND"
+     },
+     "spawnClones": true,
+     "spawnInterval": 250,
+     "spawnTime": 400
+    },
+    "cooldown": 20000,
+    "manaCost": 2,
+    "name": "SkeletonKing",
+    "resurrectBaseCount": 6,
+    "spawnLimit": 16
+   },
+   "areaDamageRadius": 1300,
+   "attacksGround": true,
+   "collisionRadius": 1000,
+   "damage": 80,
+   "deployTime": 1000,
+   "hitSpeed": 1600,
+   "hitpoints": 898,
+   "loadTime": 1300,
+   "name": "SkeletonKing",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L2"
+ },
+ "Skeletons": {
+  "id": 26000010,
+  "manaCost": 1,
+  "name": "Skeletons",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 32,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 32,
+   "loadTime": 500,
+   "name": "Skeletons",
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 90,
+   "tidSpeed": "TID_SPEED_4",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "summonNumber": 3,
+  "summonRadius": 700,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena2"
+ },
+ "Snowball": {
+  "id": 28000017,
+  "manaCost": 2,
+  "name": "Snowball",
+  "projectileData": {
+   "buffTime": 3000,
+   "crownTowerDamagePercent": -70,
+   "damage": 70,
+   "name": "SnowballProjectile",
+   "pushback": 1800,
+   "radius": 2500,
+   "rarity": "Common",
+   "speed": 800,
+   "targetBuffData": {
+    "hitSpeedMultiplier": -35,
+    "name": "SnowballTargetBuff",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -35,
+    "speedMultiplier": -35
+   },
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "rarity": "Common",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena8"
+ },
+ "Sparky": {
+  "id": 26000033,
+  "manaCost": 6,
+  "name": "Sparky",
+  "rarity": "Legendary",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 1000,
+   "deployTime": 1000,
+   "hitSpeed": 4000,
+   "hitpoints": 567,
+   "loadTime": 3000,
+   "name": "Sparky",
+   "projectileData": {
+    "damage": 520,
+    "name": "SparkyProjectile",
+    "radius": 1800,
+    "rarity": "Common",
+    "speed": 1400,
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "range": 5000,
+   "rarity": "Common",
+   "sightRange": 5000,
+   "speed": 45,
+   "tidSpeed": "TID_SPEED_2",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_Electric"
+ },
+ "SpearGoblin": {
+  "name": "SpearGoblin",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 52,
+   "loadTime": 1300,
+   "name": "SpearGoblin",
+   "projectileData": {
+    "damage": 32,
+    "name": "SpearGoblinProjectile",
+    "rarity": "Common",
+    "speed": 500
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ },
+ "SpearGoblins": {
+  "id": 26000019,
+  "manaCost": 2,
+  "name": "SpearGoblins",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1700,
+   "hitpoints": 52,
+   "loadTime": 1300,
+   "name": "SpearGoblins",
+   "projectileData": {
+    "damage": 32,
+    "name": "SpearGoblinsProjectile",
+    "rarity": "Common",
+    "speed": 500
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena1"
+ },
+ "SuspiciousBush": {
+  "id": 26000097,
+  "manaCost": 2,
+  "name": "SuspiciousBush",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "buffWhenNotAttackingData": {
+    "name": "SuspiciousBushBuffWhenNotAttacking",
+    "rarity": "Common"
+   },
+   "collisionRadius": 500,
+   "damage": 0,
+   "deathAreaEffectData": {
+    "damage": 100,
+    "hitSpeed": -1,
+    "lifeDuration": 1000,
+    "name": "SuspiciousBushDeathAreaEffect",
+    "onStartingActionData": {
+     "name": "SuspiciousBushOnStartingAction",
+     "subActionsData": [
+      {
+       "name": "SuspiciousBushSubActions",
+       "spawnDataData": {
+        "attacksGround": true,
+        "collisionRadius": 500,
+        "damage": 100,
+        "deployTime": 1000,
+        "hitSpeed": 1400,
+        "hitpoints": 119,
+        "loadTime": 1100,
+        "name": "BushGoblin",
+        "range": 800,
+        "rarity": "Common",
+        "sightRange": 5500,
+        "speed": 60,
+        "tidSpeed": "TID_SPEED_3",
+        "tidTarget": "TID_TARGETS_GROUND"
+       }
+      },
+      {
+       "name": "SuspiciousBushSubActions",
+       "spawnDataData": {
+        "attacksGround": true,
+        "collisionRadius": 500,
+        "damage": 100,
+        "deployTime": 1000,
+        "hitSpeed": 1400,
+        "hitpoints": 119,
+        "loadTime": 1100,
+        "name": "BushGoblin",
+        "range": 800,
+        "rarity": "Common",
+        "sightRange": 5500,
+        "speed": 60,
+        "tidSpeed": "TID_SPEED_3",
+        "tidTarget": "TID_TARGETS_GROUND"
+       }
+      }
+     ]
+    },
+    "rarity": "Common"
+   },
+   "deployTime": 1000,
+   "hitSpeed": 300,
+   "hitpoints": 32,
+   "kamikaze": true,
+   "loadTime": 300,
+   "name": "SuspiciousBush",
+   "rarity": "Common",
+   "sightRange": 7500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonNumber": 1,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena13"
+ },
+ "Tesla": {
+  "id": 27000006,
+  "manaCost": 4,
+  "name": "Tesla",
+  "rarity": "Common",
+  "summonCharacterData": {
+   "collisionRadius": 500,
+   "damage": 86,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 450,
+   "lifeTime": 30000,
+   "loadTime": 700,
+   "name": "Tesla",
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena_L"
+ },
+ "ThreeMusketeers": {
+  "id": 26000028,
+  "manaCost": 9,
+  "name": "ThreeMusketeers",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1000,
+   "hitpoints": 282,
+   "loadTime": 300,
+   "name": "ThreeMusketeers",
+   "projectileData": {
+    "damage": 85,
+    "name": "ThreeMusketeersProjectile",
+    "rarity": "Common",
+    "speed": 1000
+   },
+   "range": 6000,
+   "rarity": "Common",
+   "sightRange": 6000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena7"
+ },
+ "Tombstone": {
+  "id": 27000009,
+  "manaCost": 3,
+  "name": "Tombstone",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "collisionRadius": 1000,
+   "deathSpawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1000,
+    "hitpoints": 32,
+    "loadTime": 500,
+    "name": "Larry",
+    "range": 500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "deathSpawnCount": 4,
+   "deployTime": 1000,
+   "hitSpeed": 10000,
+   "hitpoints": 207,
+   "lifeTime": 30000,
+   "name": "Tombstone",
+   "rarity": "Common",
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1000,
+    "hitpoints": 32,
+    "loadTime": 500,
+    "name": "Larry",
+    "range": 500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "spawnInterval": 500,
+   "spawnNumber": 2,
+   "spawnPauseTime": 3500
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena2"
+ },
+ "Tornado": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "crownTowerDamagePercent": -83,
+    "damagePerSecond": 60,
+    "hitFrequency": 550,
+    "name": "Tornado",
+    "rarity": "Common"
+   },
+   "buffTime": 500,
+   "hitSpeed": 50,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 1050,
+   "name": "Tornado",
+   "onlyEnemies": true,
+   "radius": 5500,
+   "rarity": "Common"
+  },
+  "id": 28000012,
+  "manaCost": 3,
+  "name": "Tornado",
+  "radius": 5500,
+  "rarity": "Epic",
+  "spellAsDeploy": true,
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_L1"
+ },
+ "Valkyrie": {
+  "id": 26000011,
+  "manaCost": 4,
+  "name": "Valkyrie",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "areaDamageRadius": 2000,
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "damage": 104,
+   "deployTime": 1000,
+   "hitSpeed": 1500,
+   "hitpoints": 745,
+   "loadTime": 1400,
+   "name": "Valkyrie",
+   "range": 1200,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena2"
+ },
+ "Void": {
+  "areaEffectObjectData": {
+   "damage": 100,
+   "hitSpeed": -1,
+   "hitsAir": false,
+   "hitsGround": false,
+   "lifeDuration": 4000,
+   "name": "VoidAreaEffectObject",
+   "onStartingAction": {
+    "classType": "ActionGroup",
+    "subActions": [
+     {
+      "classType": "ActionPlayEffect",
+      "effect": "PaoloFirstEffectEverIntro"
+     },
+     {
+      "classType": "ActionLaserBall",
+      "detectionRadius": 2500,
+      "firstHitDelay": 1000,
+      "hitFilter": "ForcedCharacterTargets",
+      "hitFrequency": 1000,
+      "mainEffectList": [
+       "PaoloFirstEffectEver"
+      ],
+      "maxUnitPerActionList": [
+       1,
+       4
+      ],
+      "onDetectedUnitActionList": [
+       {
+        "classType": "ActionSpawn",
+        "nextAction": {
+         "classType": "ActionPlayEffect",
+         "effect": "Paolo_zap_effect3"
+        },
+        "spawnData": {
+         "addAsIndividualBuff": true,
+         "crownTowerDamagePerHit": 19,
+         "damagePerSecond": 1250,
+         "hitEffect": "PaoloFirstEffectEverStrong",
+         "hitFrequency": 100,
+         "name": "VoidSpawn",
+         "rarity": "Common",
+         "statsTags": {
+          "crownTowerDamagePerHit": "damage_first_tower_target",
+          "damagePerHit": "damage_first_target"
+         }
+        },
+        "spawnTime": 100,
+        "spawnType": "BuffType"
+       },
+       {
+        "classType": "ActionSpawn",
+        "nextAction": {
+         "classType": "ActionPlayEffect",
+         "effect": "Paolo_zap_effect2"
+        },
+        "spawnData": {
+         "addAsIndividualBuff": true,
+         "crownTowerDamagePerHit": 10,
+         "damagePerSecond": 625,
+         "hitEffect": "PaoloFirstEffectEverMedium",
+         "hitFrequency": 100,
+         "name": "VoidSpawn",
+         "rarity": "Common",
+         "statsTags": {
+          "crownTowerDamagePerHit": "damage_mid_tower_targets",
+          "damagePerHit": "damage_mid_targets"
+         }
+        },
+        "spawnTime": 100,
+        "spawnType": "BuffType"
+       },
+       {
+        "classType": "ActionSpawn",
+        "nextAction": {
+         "classType": "ActionPlayEffect",
+         "effect": "Paolo_zap_effect"
+        },
+        "spawnData": {
+         "addAsIndividualBuff": true,
+         "crownTowerDamagePerHit": 7,
+         "damagePerSecond": 297,
+         "hitEffect": "PaoloFirstEffectEverLow",
+         "hitFrequency": 100,
+         "name": "VoidSpawn",
+         "rarity": "Common",
+         "statsTags": {
+          "crownTowerDamagePerHit": "damage_more_tower_targets",
+          "damagePerHit": "damage_more_targets"
+         }
+        },
+        "spawnTime": 100,
+        "spawnType": "BuffType"
+       }
+      ],
+      "statsTags": {
+       "maxUnits_2": "targets_mid_upper",
+       "minUnits_2": "targets_mid_lower",
+       "minUnits_3": "targets_more_lower"
+      }
+     }
+    ],
+    "subActionsDelay": [
+     0,
+     500
+    ]
+   },
+   "onlyEnemies": true,
+   "radius": 2500,
+   "rarity": "Common"
+  },
+  "id": 28000023,
+  "manaCost": 3,
+  "name": "Void",
+  "radius": 2500,
+  "rarity": "Epic",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena_L1"
+ },
+ "WallBreaker": {
+  "name": "WallBreaker",
+  "summonCharacterData": {
+   "areaDamageRadius": 1500,
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 129,
+   "kamikaze": true,
+   "loadTime": 1000,
+   "name": "WallBreaker",
+   "projectileData": {
+    "damage": 153,
+    "name": "WallBreakerProjectile",
+    "projectileRange": 1,
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 1000,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 7000,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  }
+ },
+ "WallBreakers": {
+  "id": 26000058,
+  "manaCost": 2,
+  "name": "WallBreakers",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "areaDamageRadius": 1500,
+   "attacksGround": true,
+   "collisionRadius": 400,
+   "deployTime": 1000,
+   "hitSpeed": 1200,
+   "hitpoints": 129,
+   "kamikaze": true,
+   "loadTime": 1000,
+   "name": "WallBreakers",
+   "projectileData": {
+    "damage": 153,
+    "name": "WallBreakersProjectile",
+    "projectileRange": 1,
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 1000,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 500,
+   "rarity": "Common",
+   "sightRange": 7000,
+   "speed": 120,
+   "tidSpeed": "TID_SPEED_5",
+   "tidTarget": "TID_TARGETS_BUILDINGS"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 2,
+  "summonRadius": 750,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_T"
+ },
+ "Witch": {
+  "id": 26000007,
+  "manaCost": 5,
+  "name": "Witch",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1100,
+   "hitpoints": 328,
+   "loadTime": 400,
+   "name": "Witch",
+   "projectileData": {
+    "damage": 53,
+    "name": "WitchProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 600,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "spawnCharacterData": {
+    "attacksGround": true,
+    "collisionRadius": 500,
+    "damage": 32,
+    "deployTime": 1000,
+    "hitSpeed": 1000,
+    "hitpoints": 32,
+    "loadTime": 500,
+    "name": "Larry",
+    "range": 500,
+    "rarity": "Common",
+    "sightRange": 5500,
+    "speed": 90,
+    "tidSpeed": "TID_SPEED_4",
+    "tidTarget": "TID_TARGETS_GROUND"
+   },
+   "spawnNumber": 4,
+   "spawnPauseTime": 7000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena6"
+ },
+ "Wizard": {
+  "id": 26000017,
+  "manaCost": 5,
+  "name": "Wizard",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "collisionRadius": 500,
+   "deployTime": 1000,
+   "hitSpeed": 1400,
+   "hitpoints": 295,
+   "loadTime": 1000,
+   "name": "Wizard",
+   "projectileData": {
+    "damage": 110,
+    "name": "WizardProjectile",
+    "radius": 1500,
+    "rarity": "Common",
+    "speed": 600,
+    "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+   },
+   "range": 5500,
+   "rarity": "Common",
+   "sightRange": 5500,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena4"
+ },
+ "XBow": {
+  "id": 27000008,
+  "manaCost": 6,
+  "name": "XBow",
+  "rarity": "Epic",
+  "summonCharacterData": {
+   "collisionRadius": 600,
+   "deployTime": 3500,
+   "hitSpeed": 300,
+   "hitpoints": 625,
+   "lifeTime": 30000,
+   "name": "XBow",
+   "projectileData": {
+    "damage": 17,
+    "name": "XBowProjectile",
+    "rarity": "Common",
+    "speed": 1400
+   },
+   "range": 11500,
+   "rarity": "Common",
+   "sightRange": 11500,
+   "tidTarget": "TID_TARGETS_GROUND"
+  },
+  "tidType": "TID_CARD_TYPE_BUILDING",
+  "unlockArena": "Arena_L"
+ },
+ "Zap": {
+  "areaEffectObjectData": {
+   "buffData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ZapBuff",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffTime": 500,
+   "crownTowerDamagePercent": -70,
+   "damage": 75,
+   "hitsAir": true,
+   "hitsGround": true,
+   "lifeDuration": 1,
+   "name": "Zap",
+   "onlyEnemies": true,
+   "radius": 2500,
+   "rarity": "Common"
+  },
+  "id": 28000008,
+  "manaCost": 2,
+  "name": "Zap",
+  "radius": 2500,
+  "rarity": "Common",
+  "tidType": "TID_CARD_TYPE_SPELL",
+  "unlockArena": "Arena5"
+ },
+ "Zappies": {
+  "id": 26000052,
+  "manaCost": 4,
+  "name": "Zappies",
+  "rarity": "Rare",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "buffOnDamageData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ZappiesBuffOnDamage",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffOnDamageTime": 500,
+   "collisionRadius": 600,
+   "damage": 46,
+   "deployTime": 1000,
+   "hitSpeed": 2100,
+   "hitpoints": 207,
+   "loadTime": 1000,
+   "name": "Zappies",
+   "range": 4500,
+   "rarity": "Common",
+   "sightRange": 5000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  },
+  "summonDeployDelay": 100,
+  "summonNumber": 3,
+  "summonRadius": 1000,
+  "tidType": "TID_CARD_TYPE_CHARACTER",
+  "unlockArena": "Arena_L"
+ },
+ "Zappy": {
+  "name": "Zappy",
+  "summonCharacterData": {
+   "attacksGround": true,
+   "buffOnDamageData": {
+    "hitSpeedMultiplier": -100,
+    "name": "ZappyBuffOnDamage",
+    "rarity": "Common",
+    "spawnSpeedMultiplier": -100,
+    "speedMultiplier": -100
+   },
+   "buffOnDamageTime": 500,
+   "collisionRadius": 600,
+   "damage": 46,
+   "deployTime": 1000,
+   "hitSpeed": 2100,
+   "hitpoints": 207,
+   "loadTime": 1000,
+   "name": "Zappy",
+   "range": 4500,
+   "rarity": "Common",
+   "sightRange": 5000,
+   "speed": 60,
+   "tidSpeed": "TID_SPEED_3",
+   "tidTarget": "TID_TARGETS_AIR_AND_GROUND"
+  }
+ }
+}

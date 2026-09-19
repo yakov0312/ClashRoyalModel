@@ -1,0 +1,49 @@
+arenas:
+  League:
+    resolution: [896, 1920]
+    Image: League.png
+    calibration:
+      topLeft: [25, 260]
+      topRight: [874, 262]
+      bottomLeft: [25, 1475]
+      bottomRight: [874, 1477]
+
+HUD:
+  references:
+    - resolution: [917, 2048]
+      timeBox: [765, 130, 150, 60]
+      elixirBox: [245, 1973, 55, 45]
+
+      towerBoxes:
+        allyKing: [430, 1510, 90, 35]
+        allyLeft: [153, 1245, 74, 32]
+        allyRight: [693, 1245, 74, 32]
+        enemyKing: [430, 141, 93, 35]
+        enemyLeft: [153, 355, 70, 32]
+        enemyRight: [692, 355, 75, 32]
+
+      cards:
+        slot1: [202, 1767, 168, 208]
+        slot2: [374, 1767, 168, 208]
+        slot3: [547, 1767, 168, 208]
+        slot4: [719, 1767, 168, 208]
+        nextCard: [46, 1937, 79, 96]
+        cardMoveBy: 25
+
+    - resolution: [896, 1920]
+      timeBox: [758, 159, 130, 54]
+      elixirBox: [239, 1825, 54, 43]
+      towerBoxes:
+        allyKing: [ 430, 1510, 90, 35 ]
+        allyLeft: [ 153, 1245, 74, 32 ]
+        allyRight: [ 693, 1245, 74, 32 ]
+        enemyKing: [ 430, 141, 93, 35 ]
+        enemyLeft: [ 153, 355, 70, 32 ]
+        enemyRight: [ 692, 355, 75, 32 ]
+      cards:
+        slot1: [199, 1621, 163, 206]
+        slot2: [367, 1621, 163, 206]
+        slot3: [535, 1621, 163, 206]
+        slot4: [701, 1621, 163, 206]
+        nextCard: [45, 1788, 76, 94]
+        cardMoveBy: 25

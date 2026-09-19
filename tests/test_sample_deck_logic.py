@@ -7,13 +7,12 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "..", "src"))
 
 from clasher.arena import Position
 from clasher.battle import BattleState
-from clasher.card_aliases import resolve_card_name
 from clasher.entities import AreaEffect, Graveyard, SpawnProjectile, Troop, Building
 from clasher.spells import SPELL_REGISTRY
-
+from clasher.path import DECKS_FILE
 
 def _load_unique_sample_cards() -> list[str]:
-    with open(os.path.join(os.path.dirname(__file__), "..", "decks.json"), "r") as f:
+    with open(DECKS_FILE, "r") as f:
         decks = json.load(f)["decks"]
     return sorted({card for deck in decks for card in deck["cards"]})
 
@@ -27,22 +26,20 @@ def _prepare_player_for_single_card(battle: BattleState, player_id: int, card_na
 
 
 def _deployment_position(card_name: str) -> Position:
-    resolved = resolve_card_name(card_name)
-    spell = SPELL_REGISTRY.get(resolved)
+    spell = SPELL_REGISTRY.get(card_name)
     # Rolling projectiles follow troop deployment rules.
     if spell is not None and type(spell).__name__ not in {"RollingProjectileSpell"}:
         return Position(9.0, 16.0)
     return Position(9.0, 10.0)
 
 
-def test_all_sample_deck_cards_resolve_and_deploy():
+def test_all_sample_deck_cards_exist_and_deploy():
     cards = _load_unique_sample_cards()
     missing = []
     failed_deploy = []
 
     for card_name in cards:
         battle = BattleState()
-        resolved = resolve_card_name(card_name, battle.card_loader.load_card_definitions())
         stats = battle.card_loader.get_card(card_name)
         if stats is None:
             missing.append(card_name)
@@ -51,7 +48,7 @@ def test_all_sample_deck_cards_resolve_and_deploy():
         _prepare_player_for_single_card(battle, 0, card_name)
         pos = _deployment_position(card_name)
         if not battle.deploy_card(0, card_name, pos):
-            failed_deploy.append((card_name, resolved))
+            failed_deploy.append(card_name)
 
     assert not missing, f"Missing cards: {missing}"
     assert not failed_deploy, f"Failed deploys: {failed_deploy}"

@@ -240,7 +240,7 @@ def test_ground_only_unit_cannot_attack_air():
     )
     red_minions = [
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 1 and e.card_stats.name == "Minions"
+        if isinstance(e, Troop) and e.player_id == 1 and e.card_stats.name == "Minion"
     ]
     assert len(red_minions) >= 1
     for troop in [blue_knight, *red_minions]:
@@ -303,7 +303,7 @@ def test_golem_death_spawns_golemites():
     battle.step()
     golemites = [
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "Golemite"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "MiniGolem"
     ]
     assert len(golemites) >= 2
 
@@ -314,14 +314,14 @@ def test_skeleton_barrel_death_spawns_skeletons():
     assert battle.deploy_card(0, "SkeletonBarrel", Position(9.0, 10.0))
     barrel = next(
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "SkeletonBalloon"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "SkeletonBarrel"
     )
     barrel.take_damage(barrel.hitpoints)
     for _ in range(40):
         battle.step()
     skeletons = [
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "Skeleton"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "Larry"
     ]
     assert len(skeletons) >= 1
 
@@ -367,7 +367,7 @@ def test_lumberjack_death_drops_rage_buff():
 
     lumberjack = next(
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "AxeMan"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "Lumberjack"
     )
     ally_knight = next(
         e for e in battle.entities.values()
@@ -376,8 +376,12 @@ def test_lumberjack_death_drops_rage_buff():
     ally_knight.deploy_delay_remaining = 0.0
 
     lumberjack.take_damage(lumberjack.hitpoints)
-    battle.step()
-    assert ally_knight.attack_speed_buff_multiplier > 1.0
+    # The Rage bottle lands after the Rage card's Cards.json deployTime (0.5s).
+    for _ in range(30):
+        battle.step()
+        if ally_knight.get_attack_rate_multiplier() > 1.0:
+            break
+    assert ally_knight.get_attack_rate_multiplier() > 1.0
 
 
 def test_zap_uses_reduced_crown_tower_damage():
@@ -448,7 +452,7 @@ def test_bandit_dash_invulnerability_blocks_damage():
 
     bandit = next(
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name in {"Assassin", "Bandit"}
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "Bandit"
     )
     current_ms = int(battle.time * 1000)
     bandit._bandit_invulnerable_until = current_ms + 1000
@@ -514,7 +518,7 @@ def test_lava_hound_death_spawns_lava_pups():
 
     pups = [
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "LavaPups"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "LavaPup"
     ]
     assert len(pups) >= 6
 
@@ -526,7 +530,7 @@ def test_night_witch_periodic_and_death_bats():
 
     witch = next(
         e for e in battle.entities.values()
-        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "DarkWitch"
+        if isinstance(e, Troop) and e.player_id == 0 and e.card_stats.name == "NightWitch"
     )
     baseline_bats = len(
         [
